@@ -312,7 +312,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\VehicleMovement.cs" />
+    <Compile Include="Assets\Scripts\Camera\LagCamera.cs" />
+    <Compile Include="Assets\Scripts\Ship\Ship.cs" />
+    <Compile Include="Assets\Scripts\Ship\ShipInput.cs" />
+    <Compile Include="Assets\Scripts\Ship\ShipPhysics.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
