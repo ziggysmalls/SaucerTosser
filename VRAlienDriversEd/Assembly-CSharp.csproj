@@ -53,7 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\VehicleMovement.cs" />
+     <Compile Include="Assets\Scripts\Camera\LagCamera.cs" />
+     <Compile Include="Assets\Scripts\Ship\Ship.cs" />
+     <Compile Include="Assets\Scripts\Ship\ShipInput.cs" />
+     <Compile Include="Assets\Scripts\Ship\ShipPhysics.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/ezequ/OneDrive/Documents/GitHub/SaucerTosser/VRAlienDriversEd/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
