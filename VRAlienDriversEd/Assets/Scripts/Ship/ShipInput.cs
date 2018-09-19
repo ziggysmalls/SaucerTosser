@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShipInput : MonoBehaviour {
-    [Tooltip("When true, the mouse and mousewheel are used for ship input and A/D can be used for strafing like in many arcade space sims.\n\nOtherwise, WASD/Arrows/Joystick + R/T are used for flying, representing a more traditional style space sim.")]
+public class ShipInput : MonoBehaviour
+{
+    
     public bool useMouseInput = true;
-    [Tooltip("When using Keyboard/Joystick input, should roll be added to horizontal stick movement. This is a common trick in traditional space sims to help ships roll into turns and gives a more plane-like feeling of flight.")]
     public bool addRoll = true;
 
     [Space]
@@ -27,12 +27,12 @@ public class ShipInput : MonoBehaviour {
     // Keep a reference to the ship this is attached to just in case.
     private Ship ship;
 
-    private void Awake()
+     void Awake()
     {
         ship = GetComponent<Ship>();
     }
 
-    private void Update()
+    void Update()
     {
         if (useMouseInput)
         {
@@ -54,16 +54,11 @@ public class ShipInput : MonoBehaviour {
         }
     }
 
-    /// <summary>
-    /// Freelancer style mouse controls. This uses the mouse to simulate a virtual joystick.
-    /// When the mouse is in the center of the screen, this is the same as a centered stick.
-    /// </summary>
-    private void SetStickCommandsUsingMouse()
+    
+    void SetStickCommandsUsingMouse()
     {
         Vector3 mousePos = Input.mousePosition;
 
-        // Figure out most position relative to center of screen.
-        // (0, 0) is center, (-1, -1) is bottom left, (1, 1) is top right.      
         pitch = (mousePos.y - (Screen.height * 0.5f)) / (Screen.height* 0.5f);
         yaw = (mousePos.x - (Screen.width * 0.5f)) / (Screen.width * 0.5f);
 
@@ -72,10 +67,7 @@ public class ShipInput : MonoBehaviour {
         yaw = Mathf.Clamp(yaw, -1.0f, 1.0f);
     }
 
-    /// <summary>
-    /// Uses R and F to raise and lower the throttle.
-    /// </summary>
-    private void UpdateKeyboardThrottle(KeyCode increaseKey, KeyCode decreaseKey)
+    void UpdateKeyboardThrottle(KeyCode increaseKey, KeyCode decreaseKey)
     {
         float target = throttle;
 
@@ -87,10 +79,7 @@ public class ShipInput : MonoBehaviour {
         throttle = Mathf.MoveTowards(throttle, target, Time.deltaTime * THROTTLE_SPEED);
     }
 
-    /// <summary>
-    /// Uses the mouse wheel to control the throttle.
-    /// </summary>
-    private void UpdateMouseWheelThrottle()
+    void UpdateMouseWheelThrottle()
     {
         throttle += Input.GetAxis("Mouse ScrollWheel");
         throttle = Mathf.Clamp(throttle, 0.0f, 1.0f);
