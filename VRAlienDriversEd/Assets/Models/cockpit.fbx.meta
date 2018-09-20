@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: b93966e4fdea31c4584a366e7afddb2b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Direction_Buttons
+    100004: DOWN
+    100006: Flip
+    100008: Flip1
+    100010: Flip2
+    100012: Ground
+    100014: Holder
+    100016: LEFT
+    100018: Lid
+    100020: MIDDLE
+    100022: Monitor
+    100024: pCube1
+    100026: pCube10
+    100028: pCube2
+    100030: pCube3
+    100032: pCube3 1
+    100034: pCube3 2
+    100036: pCube3 3
+    100038: pCube4
+    100040: pCube4 1
+    100042: pCube4 2
+    100044: pCube4 3
+    100046: pCube5
+    100048: pCube5 1
+    100050: pCube5 2
+    100052: pCube6
+    100054: pCube7
+    100056: pCube9
+    100058: pCylinder1
+    100060: pCylinder10
+    100062: pCylinder11
+    100064: pCylinder11 1
+    100066: pCylinder11 2
+    100068: pCylinder12
+    100070: pCylinder13
+    100072: pCylinder14
+    100074: pCylinder15
+    100076: pCylinder16
+    100078: pCylinder2
+    100080: pCylinder3
+    100082: pCylinder4
+    100084: pCylinder5
+    100086: pSphere1
+    100088: pSphere1 1
+    100090: pSphere1 2
+    100092: Pulley
+    100094: Rearview_Mirror
+    100096: RIGHT
+    100098: Scanner
+    100100: Switch
+    100102: Switch1
+    100104: Switch2
+    100106: Switch3
+    100108: Turn_Handle
+    100110: UP
+    400000: //RootNode
+    400002: Direction_Buttons
+    400004: DOWN
+    400006: Flip
+    400008: Flip1
+    400010: Flip2
+    400012: Ground
+    400014: Holder
+    400016: LEFT
+    400018: Lid
+    400020: MIDDLE
+    400022: Monitor
+    400024: pCube1
+    400026: pCube10
+    400028: pCube2
+    400030: pCube3
+    400032: pCube3 1
+    400034: pCube3 2
+    400036: pCube3 3
+    400038: pCube4
+    400040: pCube4 1
+    400042: pCube4 2
+    400044: pCube4 3
+    400046: pCube5
+    400048: pCube5 1
+    400050: pCube5 2
+    400052: pCube6
+    400054: pCube7
+    400056: pCube9
+    400058: pCylinder1
+    400060: pCylinder10
+    400062: pCylinder11
+    400064: pCylinder11 1
+    400066: pCylinder11 2
+    400068: pCylinder12
+    400070: pCylinder13
+    400072: pCylinder14
+    400074: pCylinder15
+    400076: pCylinder16
+    400078: pCylinder2
+    400080: pCylinder3
+    400082: pCylinder4
+    400084: pCylinder5
+    400086: pSphere1
+    400088: pSphere1 1
+    400090: pSphere1 2
+    400092: Pulley
+    400094: Rearview_Mirror
+    400096: RIGHT
+    400098: Scanner
+    400100: Switch
+    400102: Switch1
+    400104: Switch2
+    400106: Switch3
+    400108: Turn_Handle
+    400110: UP
+    2100000: Floor
+    2100002: Light_Grey
+    2100004: Lever_Slot
+    2100006: lambert7
+    2100008: lambert8
+    2100010: Button
+    2100012: Blue
+    2100014: Purple
+    2100016: Green
+    2100018: Metal
+    2100020: lambert11
+    2100022: Screen
+    2300000: DOWN
+    2300002: Ground
+    2300004: Holder
+    2300006: LEFT
+    2300008: Lid
+    2300010: MIDDLE
+    2300012: pCube1
+    2300014: pCube10
+    2300016: pCube2
+    2300018: pCube3
+    2300020: pCube3 1
+    2300022: pCube3 2
+    2300024: pCube3 3
+    2300026: pCube4
+    2300028: pCube4 1
+    2300030: pCube4 2
+    2300032: pCube4 3
+    2300034: pCube5
+    2300036: pCube5 1
+    2300038: pCube5 2
+    2300040: pCube6
+    2300042: pCube7
+    2300044: pCube9
+    2300046: pCylinder1
+    2300048: pCylinder10
+    2300050: pCylinder11
+    2300052: pCylinder11 1
+    2300054: pCylinder11 2
+    2300056: pCylinder12
+    2300058: pCylinder13
+    2300060: pCylinder14
+    2300062: pCylinder15
+    2300064: pCylinder16
+    2300066: pCylinder2
+    2300068: pCylinder3
+    2300070: pCylinder4
+    2300072: pCylinder5
+    2300074: pSphere1
+    2300076: pSphere1 1
+    2300078: pSphere1 2
+    2300080: RIGHT
+    2300082: UP
+    3300000: DOWN
+    3300002: Ground
+    3300004: Holder
+    3300006: LEFT
+    3300008: Lid
+    3300010: MIDDLE
+    3300012: pCube1
+    3300014: pCube10
+    3300016: pCube2
+    3300018: pCube3
+    3300020: pCube3 1
+    3300022: pCube3 2
+    3300024: pCube3 3
+    3300026: pCube4
+    3300028: pCube4 1
+    3300030: pCube4 2
+    3300032: pCube4 3
+    3300034: pCube5
+    3300036: pCube5 1
+    3300038: pCube5 2
+    3300040: pCube6
+    3300042: pCube7
+    3300044: pCube9
+    3300046: pCylinder1
+    3300048: pCylinder10
+    3300050: pCylinder11
+    3300052: pCylinder11 1
+    3300054: pCylinder11 2
+    3300056: pCylinder12
+    3300058: pCylinder13
+    3300060: pCylinder14
+    3300062: pCylinder15
+    3300064: pCylinder16
+    3300066: pCylinder2
+    3300068: pCylinder3
+    3300070: pCylinder4
+    3300072: pCylinder5
+    3300074: pSphere1
+    3300076: pSphere1 1
+    3300078: pSphere1 2
+    3300080: RIGHT
+    3300082: UP
+    4300000: Ground
+    4300002: pCylinder1
+    4300004: pCube1
+    4300006: pCylinder2
+    4300008: pCube2
+    4300010: pCylinder3
+    4300012: pCylinder4
+    4300014: pCylinder5
+    4300016: pCube3
+    4300018: pCube4
+    4300020: pCube3
+    4300022: pCube4
+    4300024: pCube3
+    4300026: pCube4
+    4300028: pCube3
+    4300030: pCube4
+    4300032: Lid
+    4300034: pCylinder10
+    4300036: pSphere1
+    4300038: pCylinder11
+    4300040: pCube5
+    4300042: pSphere1
+    4300044: pCylinder11
+    4300046: pCube5
+    4300048: pSphere1
+    4300050: pCylinder11
+    4300052: pCube5
+    4300054: Holder
+    4300056: pCube6
+    4300058: pCylinder12
+    4300060: pCube7
+    4300062: pCylinder13
+    4300064: pCube9
+    4300066: MIDDLE
+    4300068: UP
+    4300070: DOWN
+    4300072: RIGHT
+    4300074: LEFT
+    4300076: pCube10
+    4300078: pCylinder14
+    4300080: pCylinder15
+    4300082: pCylinder16
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen
+    second: {fileID: 2100000, guid: 08e7b9b01848f0740a195e08a11db803, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 15
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
