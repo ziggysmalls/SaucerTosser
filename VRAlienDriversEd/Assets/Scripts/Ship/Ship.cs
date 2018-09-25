@@ -30,7 +30,7 @@ public class Ship : MonoBehaviour
     private void Update()
     {
         // Pass the input to the physics to move the ship.
-        physics.SetPhysicsInput(new Vector3(input.strafe, 0.0f, input.throttle), new Vector3(input.pitch, input.yaw, input.roll));
+        physics.SetPhysicsInput(new Vector3(input.throttle, 0.0f, input.strafe), new Vector3(input.pitch, input.yaw, input.roll));
         if (isPlayer)
             playerShip = this;
     }
