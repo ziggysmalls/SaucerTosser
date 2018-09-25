@@ -61,11 +61,12 @@ public class ShipInput : MonoBehaviour
             strafe = 0.0f;
             UpdateTriggerThrottle(device);
         }
-		*/
+        */
+
 
 		UpdateJoystickThrottle ();
-		Debug.Log (throttle);
-		//throttle = 0;
+		UpdateJoystickYaw ();
+		Debug.Log(yaw);
     }
 
     
@@ -79,20 +80,6 @@ public class ShipInput : MonoBehaviour
         // Make sure the values don't exceed limits.
         pitch = -Mathf.Clamp(pitch, -1.0f, 1.0f);
         yaw = Mathf.Clamp(yaw, -1.0f, 1.0f);
-    }
-
-    void UpdateTriggerThrottle(SteamVR_Controller.Device device)
-    {
-        float target = throttle;
-        device = SteamVR_Controller.Input((int)tObject.index);
-        if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
-        {
-            target = 1.0f;
-        }
-        else
-            target = 0.0f;
-
-        throttle = Mathf.MoveTowards(throttle, target, Time.deltaTime * THROTTLE_SPEED);
     }
 
     void UpdateMouseWheelThrottle()
@@ -120,12 +107,12 @@ public class ShipInput : MonoBehaviour
 	void UpdateJoystickYaw()
 	{
 		float rot = joystickHandle.rotation.y;
-		if (rot > 20) {
-			yaw = 100;
+		if (rot > 10) {
+			yaw = 500;
 		}
 
-		if (rot < -20) {
-			yaw = -100;
+		if (rot < -10) {
+			yaw = -500;
 		}
 	}
 }
