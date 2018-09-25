@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/CockpitTest.unity
+- path: C:/Users/jakej/Alien Map/Assets/Hangar, terrain, and obstacles.unity
   isLoaded: 1
   isActive: 1
