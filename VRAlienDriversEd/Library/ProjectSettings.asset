@@ -710,7 +710,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: dbd6a2d0-e6a3-433e-8405-73be0a1beccc
-  projectName: 
+  projectName: VRAlienDriversEd
   organizationId: ziggy_small5
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
