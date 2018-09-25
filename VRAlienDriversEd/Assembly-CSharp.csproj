@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\LagCamera.cs" />
+     <Compile Include="Assets\Scripts\Ship\DisableSpring.cs" />
      <Compile Include="Assets\Scripts\Ship\Ship.cs" />
      <Compile Include="Assets\Scripts\Ship\ShipInput.cs" />
      <Compile Include="Assets\Scripts\Ship\ShipPhysics.cs" />
