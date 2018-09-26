@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: ce3454bbd1eb16342930e5d41e80b3b3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Container
+    100002: Container1
+    100004: Direction_Buttons
+    100006: Dome
+    100008: DOWN
+    100010: Flip
+    100012: Ground
+    100014: Handle
+    100016: Handle 1
+    100018: Holder
+    100020: LEFT
+    100022: Lid
+    100024: MIDDLE
+    100026: Monitor
+    100028: pCone1
+    100030: pCone3
+    100032: pCube1
+    100034: pCube10
+    100036: pCube12
+    100038: pCube13
+    100040: pCube14
+    100042: pCube14 1
+    100044: pCube14 2
+    100046: pCube14 3
+    100048: pCube15
+    100050: pCube16
+    100052: pCube17
+    100054: pCube18
+    100056: pCube19
+    100058: pCube2
+    100060: pCube20
+    100062: pCube21
+    100064: pCube22
+    100066: pCube3
+    100068: pCube3 1
+    100070: pCube3 2
+    100072: pCube3 3
+    100074: pCube3 4
+    100076: pCube3 5
+    100078: pCube3 6
+    100080: pCube3 7
+    100082: pCube3 8
+    100084: pCube4
+    100086: pCube4 1
+    100088: pCube4 2
+    100090: pCube4 3
+    100092: pCube4 4
+    100094: pCube4 5
+    100096: pCube4 6
+    100098: pCube4 7
+    100100: pCube4 8
+    100102: pCube4 9
+    100104: pCube5
+    100106: pCube6
+    100108: pCube7
+    100110: pCube9
+    100112: pCylinder11
+    100114: pCylinder12
+    100116: pCylinder13
+    100118: pCylinder14
+    100120: pCylinder15
+    100122: pCylinder18
+    100124: pCylinder19
+    100126: pCylinder20
+    100128: pCylinder21
+    100130: pCylinder22
+    100132: pCylinder23
+    100134: pCylinder3
+    100136: pCylinder4
+    100138: pCylinder5
+    100140: pTorus1
+    100142: pTorus2
+    100144: Pulley
+    100146: Rearview_Mirror
+    100148: RIGHT
+    100150: Scanner
+    100152: Switch
+    100154: Switch1
+    100156: Switch2
+    100158: Switch3
+    100160: Switch4
+    100162: Switch5
+    100164: Switch6
+    100166: Switch7
+    100168: Switch8
+    100170: Switch9
+    100172: Thruster
+    100174: transform10
+    100176: transform7
+    100178: transform8
+    100180: transform9
+    100182: UFO
+    100184: //RootNode
+    100186: UP
+    400000: Container
+    400002: Container1
+    400004: Direction_Buttons
+    400006: Dome
+    400008: DOWN
+    400010: Flip
+    400012: Ground
+    400014: Handle
+    400016: Handle 1
+    400018: Holder
+    400020: LEFT
+    400022: Lid
+    400024: MIDDLE
+    400026: Monitor
+    400028: pCone1
+    400030: pCone3
+    400032: pCube1
+    400034: pCube10
+    400036: pCube12
+    400038: pCube13
+    400040: pCube14
+    400042: pCube14 1
+    400044: pCube14 2
+    400046: pCube14 3
+    400048: pCube15
+    400050: pCube16
+    400052: pCube17
+    400054: pCube18
+    400056: pCube19
+    400058: pCube2
+    400060: pCube20
+    400062: pCube21
+    400064: pCube22
+    400066: pCube3
+    400068: pCube3 1
+    400070: pCube3 2
+    400072: pCube3 3
+    400074: pCube3 4
+    400076: pCube3 5
+    400078: pCube3 6
+    400080: pCube3 7
+    400082: pCube3 8
+    400084: pCube4
+    400086: pCube4 1
+    400088: pCube4 2
+    400090: pCube4 3
+    400092: pCube4 4
+    400094: pCube4 5
+    400096: pCube4 6
+    400098: pCube4 7
+    400100: pCube4 8
+    400102: pCube4 9
+    400104: pCube5
+    400106: pCube6
+    400108: pCube7
+    400110: pCube9
+    400112: pCylinder11
+    400114: pCylinder12
+    400116: pCylinder13
+    400118: pCylinder14
+    400120: pCylinder15
+    400122: pCylinder18
+    400124: pCylinder19
+    400126: pCylinder20
+    400128: pCylinder21
+    400130: pCylinder22
+    400132: pCylinder23
+    400134: pCylinder3
+    400136: pCylinder4
+    400138: pCylinder5
+    400140: pTorus1
+    400142: pTorus2
+    400144: Pulley
+    400146: Rearview_Mirror
+    400148: RIGHT
+    400150: Scanner
+    400152: Switch
+    400154: Switch1
+    400156: Switch2
+    400158: Switch3
+    400160: Switch4
+    400162: Switch5
+    400164: Switch6
+    400166: Switch7
+    400168: Switch8
+    400170: Switch9
+    400172: Thruster
+    400174: transform10
+    400176: transform7
+    400178: transform8
+    400180: transform9
+    400182: //RootNode
+    400184: UFO
+    400186: UP
+    2100000: Floor
+    2100002: Screen2
+    2100004: Panel
+    2100006: Button
+    2100008: Lever_Slot
+    2100010: Blue
+    2100012: Purple
+    2100014: Green
+    2100016: Light_Grey
+    2100018: Metal2
+    2100020: Screen
+    2100022: lambert1
+    2100024: DomeMaterial
+    2100026: WallTexture
+    2100028: Panel2
+    2300000: Container
+    2300002: Container1
+    2300004: Dome
+    2300006: DOWN
+    2300008: Ground
+    2300010: Handle 1
+    2300012: LEFT
+    2300014: Lid
+    2300016: MIDDLE
+    2300018: pCone1
+    2300020: pCone3
+    2300022: pCube1
+    2300024: pCube10
+    2300026: pCube13
+    2300028: pCube14
+    2300030: pCube14 1
+    2300032: pCube14 2
+    2300034: pCube14 3
+    2300036: pCube15
+    2300038: pCube16
+    2300040: pCube17
+    2300042: pCube18
+    2300044: pCube19
+    2300046: pCube2
+    2300048: pCube20
+    2300050: pCube21
+    2300052: pCube22
+    2300054: pCube3
+    2300056: pCube3 1
+    2300058: pCube3 2
+    2300060: pCube3 3
+    2300062: pCube3 4
+    2300064: pCube3 5
+    2300066: pCube3 6
+    2300068: pCube3 7
+    2300070: pCube3 8
+    2300072: pCube4
+    2300074: pCube4 1
+    2300076: pCube4 2
+    2300078: pCube4 3
+    2300080: pCube4 4
+    2300082: pCube4 5
+    2300084: pCube4 6
+    2300086: pCube4 7
+    2300088: pCube4 8
+    2300090: pCube4 9
+    2300092: pCube5
+    2300094: pCube6
+    2300096: pCube7
+    2300098: pCylinder11
+    2300100: pCylinder12
+    2300102: pCylinder13
+    2300104: pCylinder14
+    2300106: pCylinder15
+    2300108: pCylinder18
+    2300110: pCylinder19
+    2300112: pCylinder20
+    2300114: pCylinder21
+    2300116: pCylinder3
+    2300118: pCylinder4
+    2300120: pCylinder5
+    2300122: pTorus1
+    2300124: pTorus2
+    2300126: RIGHT
+    2300128: Thruster
+    2300130: UFO
+    2300132: UP
+    3300000: Container
+    3300002: Container1
+    3300004: Dome
+    3300006: DOWN
+    3300008: Ground
+    3300010: Handle 1
+    3300012: LEFT
+    3300014: Lid
+    3300016: MIDDLE
+    3300018: pCone1
+    3300020: pCone3
+    3300022: pCube1
+    3300024: pCube10
+    3300026: pCube13
+    3300028: pCube14
+    3300030: pCube14 1
+    3300032: pCube14 2
+    3300034: pCube14 3
+    3300036: pCube15
+    3300038: pCube16
+    3300040: pCube17
+    3300042: pCube18
+    3300044: pCube19
+    3300046: pCube2
+    3300048: pCube20
+    3300050: pCube21
+    3300052: pCube22
+    3300054: pCube3
+    3300056: pCube3 1
+    3300058: pCube3 2
+    3300060: pCube3 3
+    3300062: pCube3 4
+    3300064: pCube3 5
+    3300066: pCube3 6
+    3300068: pCube3 7
+    3300070: pCube3 8
+    3300072: pCube4
+    3300074: pCube4 1
+    3300076: pCube4 2
+    3300078: pCube4 3
+    3300080: pCube4 4
+    3300082: pCube4 5
+    3300084: pCube4 6
+    3300086: pCube4 7
+    3300088: pCube4 8
+    3300090: pCube4 9
+    3300092: pCube5
+    3300094: pCube6
+    3300096: pCube7
+    3300098: pCylinder11
+    3300100: pCylinder12
+    3300102: pCylinder13
+    3300104: pCylinder14
+    3300106: pCylinder15
+    3300108: pCylinder18
+    3300110: pCylinder19
+    3300112: pCylinder20
+    3300114: pCylinder21
+    3300116: pCylinder3
+    3300118: pCylinder4
+    3300120: pCylinder5
+    3300122: pTorus1
+    3300124: pTorus2
+    3300126: RIGHT
+    3300128: Thruster
+    3300130: UFO
+    3300132: UP
+    4300000: Ground
+    4300002: pCube2
+    4300004: pCylinder3
+    4300006: pCylinder4
+    4300008: pCylinder5
+    4300010: pCube3
+    4300012: pCube4
+    4300014: pCube3
+    4300016: pCube4
+    4300018: pCube3
+    4300020: pCube4
+    4300022: pCube3
+    4300024: pCube4
+    4300026: pCube14
+    4300028: Lid
+    4300030: pCylinder11
+    4300032: pCube5
+    4300034: pCube6
+    4300036: pCylinder12
+    4300038: pCube7
+    4300040: pCylinder13
+    4300042: MIDDLE
+    4300044: UP
+    4300046: DOWN
+    4300048: RIGHT
+    4300050: LEFT
+    4300052: pCube10
+    4300054: pCylinder14
+    4300056: pCylinder15
+    4300058: pCylinder20
+    4300060: pCylinder19
+    4300062: pCylinder18
+    4300064: pTorus1
+    4300066: pCone1
+    4300068: pCube13
+    4300070: Thruster
+    4300072: pCube3
+    4300074: pCube4
+    4300076: pCube14
+    4300078: pCube4
+    4300080: pCube14
+    4300082: pCube3
+    4300084: pCube4
+    4300086: pCube3
+    4300088: pCube4
+    4300090: pCube3
+    4300092: pCube4
+    4300094: pCube3
+    4300096: pCube4
+    4300098: pCube14
+    4300100: Container
+    4300102: Dome
+    4300104: UFO
+    4300106: Container1
+    4300108: pCube16
+    4300110: pCube15
+    4300112: pCube17
+    4300114: pCube18
+    4300116: pCube1
+    4300118: pCylinder21
+    4300120: Handle
+    4300122: pCube19
+    4300124: pCube20
+    4300126: pCube21
+    4300128: pCube22
+    4300130: pTorus2
+    4300132: pCone3
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 15
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
