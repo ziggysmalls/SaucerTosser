@@ -65,7 +65,7 @@ public class ShipInput : MonoBehaviour
 
 
 		UpdateJoystickThrottle ();
-		UpdateJoystickYaw ();
+		//UpdateJoystickYaw ();
 		Debug.Log(yaw);
     }
 
