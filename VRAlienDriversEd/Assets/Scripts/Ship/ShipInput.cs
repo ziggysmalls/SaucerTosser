@@ -5,18 +5,13 @@ using Valve.VR;
 public class ShipInput : MonoBehaviour
 {
     
-    public bool useMouseInput = true;
-    public bool addRoll = true;
+    
 	public Transform joystick;
-	public Transform joystickHandle;
-    GameObject accelerator;
-    GameObject rotation;
-    SteamVR_TrackedObject tObject;
-    SteamVR_Controller.Device device;
+	
+    public HingeJoint turnHandle;
 
 
-    [Space]
-
+    
     [Range(-1, 1)]
     public float pitch;
     [Range(-1, 1)]
@@ -34,53 +29,19 @@ public class ShipInput : MonoBehaviour
     // Keep a reference to the ship this is attached to just in case.
     private Ship ship;
 
-     void Awake()
+    void Awake()
     {
         ship = GetComponent<Ship>();
-        tObject = GetComponent<SteamVR_TrackedObject>();
+
     }
-
-    void Update()
+   public void Update()
     {
-		/*
-        if (tObject)
-        {
-            strafe = Input.GetAxis("Horizontal");
-            SetStickCommandsUsingMouse();
-            UpdateMouseWheelThrottle();
-            UpdateTriggerThrottle(device);
-        }
-        else
-        {            
-            pitch = Input.GetAxis("Vertical");
-            yaw = Input.GetAxis("Horizontal");
-
-            if (addRoll)
-                roll = -Input.GetAxis("Horizontal") * 0.5f;
-
-            strafe = 0.0f;
-            UpdateTriggerThrottle(device);
-        }
-        */
-
-
 		UpdateJoystickThrottle ();
-		//UpdateJoystickYaw ();
-		Debug.Log(yaw);
+		UpdateJoystickYaw ();
     }
 
     
-    void SetStickCommandsUsingMouse()
-    {
-        Vector3 mousePos = Input.mousePosition;
-
-        pitch = (mousePos.y - (Screen.height * 0.5f)) / (Screen.height* 0.5f);
-        yaw = (mousePos.x - (Screen.width * 0.5f)) / (Screen.width * 0.5f);
-
-        // Make sure the values don't exceed limits.
-        pitch = -Mathf.Clamp(pitch, -1.0f, 1.0f);
-        yaw = Mathf.Clamp(yaw, -1.0f, 1.0f);
-    }
+   
 
     void UpdateMouseWheelThrottle()
     {
@@ -101,18 +62,26 @@ public class ShipInput : MonoBehaviour
 		HingeJoint hinge = joystick.GetComponent<HingeJoint> ();
 		float min = hinge.limits.min;
 		float max = hinge.limits.max;
-		throttle = Map (rot, min, max, 0f, 1f); 
-	}
+		throttle = Map (rot, min, max, 0f, 1f);
+        if (throttle < 0f)
+        {
+            throttle = 0;
+        }
+    }
 
 	void UpdateJoystickYaw()
 	{
-		float rot = joystickHandle.rotation.y;
-		if (rot > 10) {
-			yaw = 500;
-		}
+        float ang = turnHandle.angle;
+        if (ang > 20)
+        {
+            yaw = -1;
+        }
+        else
 
-		if (rot < -10) {
-			yaw = -500;
-		}
-	}
+        if (ang < -20)
+        {
+            yaw = 1;
+        }
+        else yaw = 0;
+    }
 }

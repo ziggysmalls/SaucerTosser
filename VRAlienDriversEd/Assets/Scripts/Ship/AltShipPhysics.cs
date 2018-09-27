@@ -5,7 +5,10 @@ using UnityEngine;
 public class AltShipPhysics : MonoBehaviour {
 
 	public Transform joystick;
+    public HingeJoint turnHandle;
 	public float maxSpeed;
+    public float turnSpeed;
+    public float yawDirection;
 
 	float throttle;
 
@@ -17,6 +20,7 @@ public class AltShipPhysics : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		UpdateJoystickThrottle ();
+        UpdateJoystickYaw();
 		UpdateShipPosition ();
 	}
 
@@ -39,9 +43,31 @@ public class AltShipPhysics : MonoBehaviour {
 		}
 	}
 
-	void UpdateShipPosition() {
+    void UpdateJoystickYaw()
+    {
+        float ang = turnHandle.angle;
+        if (ang > 20)
+        {
+            yawDirection = -1;
+        }
+        else
+
+        if (ang < -20)
+        {
+            yawDirection = 1;
+        }
+        else yawDirection = 0;
+    }
+
+    void UpdateShipPosition() {
 		Vector3 pos = transform.position;
 		pos.z += -throttle * maxSpeed;
-		transform.position = new Vector3 (pos.x, pos.y, pos.z);
+        transform.position += -transform.right * -throttle * maxSpeed; //new Vector3 (pos.x, pos.y, pos.z);
+
+        Vector3 rot = transform.rotation.eulerAngles;
+        rot.y += yawDirection;// * turnSpeed;
+        transform.rotation = Quaternion.Euler(rot);
 	}
+
+
 }

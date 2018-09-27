@@ -17,20 +17,22 @@ public class Ship : MonoBehaviour
     private static Ship playerShip;
 
     // Getters for external objects to reference things like input.
-    public bool UsingMouseInput { get { return input.useMouseInput; } }
-    public Vector3 Velocity { get { return physics.Rigidbody.velocity; } }
+    
     public float Throttle { get { return input.throttle; } }
 
     private void Awake()
     {
         input = GetComponent<ShipInput>();
         physics = GetComponent<ShipPhysics>();
+
     }
 
     private void Update()
     {
+
         // Pass the input to the physics to move the ship.
-        physics.SetPhysicsInput(new Vector3(input.throttle, 0.0f, input.strafe), new Vector3(input.pitch, input.yaw, input.roll));
+        physics.UpdateShipPosition();
+        input.Update();
         if (isPlayer)
             playerShip = this;
     }
