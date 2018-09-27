@@ -55,8 +55,8 @@ public class AltShipPhysics : MonoBehaviour {
         if (ang < -20)
         {
             yawDirection = 1;
-        }
-        else yawDirection = 0;
+        } else yawDirection = 0;
+        Debug.Log(ang);
     }
 
     void UpdateShipPosition() {
@@ -65,7 +65,7 @@ public class AltShipPhysics : MonoBehaviour {
         transform.position += -transform.right * -throttle * maxSpeed; //new Vector3 (pos.x, pos.y, pos.z);
 
         Vector3 rot = transform.rotation.eulerAngles;
-        rot.y += yawDirection;// * turnSpeed;
+        rot.y += yawDirection * turnSpeed;
         transform.rotation = Quaternion.Euler(rot);
 	}
 
