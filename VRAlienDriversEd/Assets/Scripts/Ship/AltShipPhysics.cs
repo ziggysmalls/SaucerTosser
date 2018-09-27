@@ -34,7 +34,7 @@ public class AltShipPhysics : MonoBehaviour {
 		float min = hinge.limits.min;
 		float max = hinge.limits.max;
 		throttle = Map (rot, min, max, 0f, 1f);
-		if (throttle < .1) {
+		if (throttle < 0f) {
 			throttle = 0;
 		}
 	}
