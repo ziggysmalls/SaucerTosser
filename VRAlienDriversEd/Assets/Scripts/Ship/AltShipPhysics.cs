@@ -5,15 +5,17 @@ using UnityEngine;
 public class AltShipPhysics : MonoBehaviour {
 
 	public Transform joystick;
-    public HingeJoint turnHandle;
+    public Transform turnHandle;
 	public float maxSpeed;
     public float turnSpeed;
     public float yawDirection;
+	Transform yTransform;
 
 	float throttle;
 
 	// Use this for initialization
 	void Start () {
+		yTransform = transform;
 		
 	}
 	
@@ -45,7 +47,7 @@ public class AltShipPhysics : MonoBehaviour {
 
     void UpdateJoystickYaw()
     {
-        float ang = turnHandle.angle;
+        float ang = turnHandle.rotation.y;
         if (ang > 20)
         {
             yawDirection = -1;
@@ -56,18 +58,16 @@ public class AltShipPhysics : MonoBehaviour {
         {
             yawDirection = 1;
         } else yawDirection = 0;
-        Debug.Log(ang);
+        Debug.Log(turnHandle.rotation.x);
     }
 
     void UpdateShipPosition() {
 		Vector3 pos = transform.position;
-		pos.z += -throttle * maxSpeed;
+		pos.z += -throttle * maxSpeed * Time.deltaTime;
         transform.position += -transform.right * -throttle * maxSpeed; //new Vector3 (pos.x, pos.y, pos.z);
 
-        Vector3 rot = transform.rotation.eulerAngles;
-        rot.y += yawDirection * turnSpeed;
-        transform.rotation = Quaternion.Euler(rot);
+        Vector3 rot = transform.eulerAngles;
+        rot.y += yawDirection;// * turnSpeed * Time.deltaTime;
+        yTransform.Rotate(transform.up,yawDirection,Space.Self);
 	}
-
-
 }

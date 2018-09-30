@@ -9419,9 +9419,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 2118525851}
-  turnHandle: {fileID: 159449705}
+  turnHandle: {fileID: 159449704}
   maxSpeed: 0.3
-  turnSpeed: 1
+  turnSpeed: 0.001
   yawDirection: 0
 --- !u!114 &1279610981
 MonoBehaviour:
