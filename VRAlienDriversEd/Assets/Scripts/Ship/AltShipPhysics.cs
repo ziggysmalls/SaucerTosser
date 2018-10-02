@@ -5,13 +5,13 @@ using UnityEngine;
 public class AltShipPhysics : MonoBehaviour {
 
 	public Transform joystick;
-    public Transform turnHandle;
+	public GameObject turnHandle;
 	public float maxSpeed;
     public float turnSpeed;
-    public float yawDirection;
 	Transform yTransform;
 
 	float throttle;
+	float yawDirection;
 
 	// Use this for initialization
 	void Start () {
@@ -35,7 +35,7 @@ public class AltShipPhysics : MonoBehaviour {
 
 	void UpdateJoystickThrottle()
 	{
-		float rot = joystick.rotation.z;
+		float rot = joystick.localRotation.z;
 		HingeJoint hinge = joystick.GetComponent<HingeJoint> ();
 		float min = hinge.limits.min;
 		float max = hinge.limits.max;
@@ -47,18 +47,17 @@ public class AltShipPhysics : MonoBehaviour {
 
     void UpdateJoystickYaw()
     {
-        float ang = turnHandle.rotation.y;
-        if (ang > 20)
+		float ang = turnHandle.transform.localRotation.y;
+        if (ang > 0.6)
         {
             yawDirection = -1;
         }
         else
 
-        if (ang < -20)
+        if (ang < 0.4)
         {
             yawDirection = 1;
         } else yawDirection = 0;
-        Debug.Log(turnHandle.rotation.x);
     }
 
     void UpdateShipPosition() {
