@@ -14,15 +14,15 @@ public class toggleSpring : MonoBehaviour {
 		hinge = GetComponent<HingeJoint> ();
 	}
 
-	void OnCollisionEnter( Collider col){
-		if (col == triggerObject) {
+	void OnCollisionEnter( Collision col){
+		if (col.gameObject == triggerObject) {
 			hinge.useSpring = false;
 			Debug.Log ("FIRING");
 		}
 	}
 
-	void OnCollisionLeave (Collider col){
-		if (col == triggerObject) {
+	void OnCollisionLeave (Collision col){
+		if (col.gameObject == triggerObject) {
 			hinge.useSpring = true;
 		}
 	}
