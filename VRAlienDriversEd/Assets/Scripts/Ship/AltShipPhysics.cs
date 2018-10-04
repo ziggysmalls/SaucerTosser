@@ -51,17 +51,24 @@ public class AltShipPhysics : MonoBehaviour {
 
     void UpdateTurnLever()
     {
-		float ang = turnHandle.transform.localRotation.y;
-        if (ang > 0.6)
+		float ang = turnHandle.transform.localRotation.eulerAngles.y;
+        float deadZone = 5;
+
+        float midAng = 101;
+        float maxAng = 112;
+        float minAng = 80;
+
+        if (ang > 101 + deadZone/2) //Turn Left
         {
-            yawDirection = -1;
+            yawDirection = (ang - midAng) / (midAng - maxAng);
         }
         else
 
-        if (ang < 0.4)
+        if (ang < 101 - deadZone/2) //Turn Right
         {
-            yawDirection = 1;
+            yawDirection = (ang - midAng) / (midAng - maxAng);
         } else yawDirection = 0;
+        Debug.Log(yawDirection);
     }
 
     void UpdateElevator()
