@@ -15,6 +15,8 @@ public class AltShipPhysics : MonoBehaviour {
 	float yawDirection;
     float liftDirection;
 
+    Vector3 totalVec = new Vector3(0, 0, 0);
+
 	// Use this for initialization
 	void Start () {
 		yTransform = transform;
@@ -75,19 +77,7 @@ public class AltShipPhysics : MonoBehaviour {
     {
         
         float rot = elevator.localRotation.eulerAngles.z;
-        /*HingeJoint hinge = elevator.GetComponent<HingeJoint>();
-        float min = 290 - hinge.limits.min;
-        float max = 290 + hinge.limits.max;
-        liftDirection = Map(rot, min, max, 0f,1f);
-        if (liftDirection < 0.3f && liftDirection > -0.3f)
-        {
-            //liftDirection = 0;
-        }
-        Debug.Log("Rotation: " + rot);
-        Debug.Log("Lift Direction: " + liftDirection);
-        Debug.Log("Min: " + min);
-        Debug.Log("Max: " + max);
-        */
+
         if (rot > 300)
         {
             liftDirection = -0.1f;
@@ -101,13 +91,19 @@ public class AltShipPhysics : MonoBehaviour {
 
     void UpdateShipPosition() {
 		Vector3 pos = transform.position;
-		pos.z += -throttle * maxSpeed * Time.deltaTime;
-        transform.position += -transform.right * -throttle * maxSpeed; //Apply throttle
-        transform.position += transform.up * liftDirection; //Apply elevator
+        Vector3 throttleVec = transform.right * throttle * maxSpeed; //Apply throttle
+        Vector3 elevatorVec = transform.up * liftDirection; //Apply elevator
+        totalVec = throttleVec + elevatorVec;
+        transform.position += totalVec;
 
 
         Vector3 rot = transform.eulerAngles;
         rot.y += yawDirection;// * turnSpeed * Time.deltaTime;
         yTransform.Rotate(transform.up,yawDirection,Space.Self);
 	}
+
+    public void stopShip()
+    {
+        transform.position -= totalVec;
+    }
 }
