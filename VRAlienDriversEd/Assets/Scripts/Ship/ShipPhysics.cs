@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AltShipPhysics : MonoBehaviour {
+public class ShipPhysics : MonoBehaviour {
 
 	public Transform joystick;
 	public GameObject turnHandle;
@@ -14,6 +14,8 @@ public class AltShipPhysics : MonoBehaviour {
 	float throttle;
 	float yawDirection;
     float liftDirection;
+
+    public float collisionRange;
 
     Vector3 totalVec = new Vector3(0, 0, 0);
 
@@ -90,17 +92,47 @@ public class AltShipPhysics : MonoBehaviour {
     }
 
     void UpdateShipPosition() {
-		Vector3 pos = transform.position;
+
+        bool hitUp = false;
+        bool hitDown = false;
+        bool hitLeft = false;
+        bool hitRight = false;
+        bool hitForward = false;
+        bool hitBackward = false;
+
+        
+
+        if (Physics.Raycast(transform.position, -transform.up, collisionRange)) //Down
+        {
+            if (liftDirection < 0) liftDirection = 0;
+        }
+        if (Physics.Raycast(transform.position, transform.up, collisionRange)) //Down
+        {
+            if (liftDirection > 0) liftDirection = 0;
+        }
+
+        if (Physics.Raycast(transform.position + new Vector3 (0,0,1f), transform.forward,collisionRange)) //Forward
+        {
+            Debug.Log("Forward Collision");
+            if (throttle > 0) throttle = 0;
+        }
+
+        if (Physics.Raycast(transform.position,-transform.forward,collisionRange))//Backward
+        {
+            Debug.Log("Back Collision");
+            if (throttle < 0) throttle = 0;
+        }
+
+        Vector3 pos = transform.position;
         Vector3 throttleVec = transform.right * throttle * maxSpeed; //Apply throttle
         Vector3 elevatorVec = transform.up * liftDirection; //Apply elevator
         totalVec = throttleVec + elevatorVec;
-        transform.position += totalVec;
-
 
         Vector3 rot = transform.eulerAngles;
         rot.y += yawDirection;// * turnSpeed * Time.deltaTime;
         yTransform.Rotate(transform.up,yawDirection,Space.Self);
-	}
+        transform.position += totalVec;
+    }
 
     public void stopShip()
     {

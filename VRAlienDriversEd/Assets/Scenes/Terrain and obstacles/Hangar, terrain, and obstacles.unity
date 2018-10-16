@@ -859,7 +859,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.9434249, y: 0.9317737, z: 0.046197977}
+  m_ConnectedAnchor: {x: 1.9434249, y: 0.9317804, z: 0.046197977}
   m_UseSpring: 1
   m_Spring:
     spring: 3
@@ -1288,7 +1288,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.2136203, y: 0.7574021, z: 1.5926456}
+  m_ConnectedAnchor: {x: 1.2136203, y: 0.7574088, z: 1.5926456}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2643,7 +2643,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.9646139, y: 0.630963, z: 1.5708637}
+  m_ConnectedAnchor: {x: 0.9646139, y: 0.6309697, z: 1.5708637}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2837,7 +2837,6 @@ GameObject:
   - component: {fileID: 510067491}
   - component: {fileID: 510067490}
   - component: {fileID: 510067489}
-  - component: {fileID: 510067493}
   - component: {fileID: 510067488}
   m_Layer: 0
   m_Name: VRCamera
@@ -2943,13 +2942,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &510067493
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 510067486}
-  m_Enabled: 1
 --- !u!1001 &510411721
 Prefab:
   m_ObjectHideFlags: 0
@@ -6695,7 +6687,7 @@ HingeJoint:
   m_Anchor: {x: 0.43, y: 0.08, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.6227006, y: 0.5890121, z: -0.86814433}
+  m_ConnectedAnchor: {x: 1.6227006, y: 0.58901876, z: -0.86814433}
   m_UseSpring: 1
   m_Spring:
     spring: 3
@@ -8161,7 +8153,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279610977}
   m_LocalRotation: {x: -0, y: 0.72330713, z: -0, w: 0.6905264}
-  m_LocalPosition: {x: 22.18, y: 23.8, z: 3.979}
+  m_LocalPosition: {x: 22.18, y: 44.46, z: 3.979}
   m_LocalScale: {x: 0.28634578, y: 0.28634578, z: 0.28634578}
   m_Children:
   - {fileID: 1147095987}
@@ -8203,6 +8195,7 @@ MonoBehaviour:
   elevator: {fileID: 1013736722}
   maxSpeed: 0.3
   turnSpeed: 0.001
+  collisionRange: 1
 --- !u!135 &1279610984
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9693,7 +9686,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1428663057}
-  - component: {fileID: 1428663058}
   m_Layer: 0
   m_Name: FollowHead
   m_TagString: Untagged
@@ -9716,14 +9708,6 @@ Transform:
   m_Father: {fileID: 1147095987}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1428663058
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 81968424072532750, guid: 912be56ba93d2e8448bc253c38672504,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1428663056}
-  m_Enabled: 1
 --- !u!1 &1429320746
 GameObject:
   m_ObjectHideFlags: 0
@@ -12032,7 +12016,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.231188, y: 0.86608297, z: 1.881859}
+  m_ConnectedAnchor: {x: 1.231188, y: 0.8660763, z: 1.881859}
   m_UseSpring: 0
   m_Spring:
     spring: 0

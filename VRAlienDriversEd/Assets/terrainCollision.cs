@@ -19,7 +19,7 @@ public class terrainCollision : MonoBehaviour {
         if (collision.gameObject.tag == "Player")
         {
             GameObject player = collision.gameObject;
-            AltShipPhysics ship = player.GetComponent<AltShipPhysics>();
+            ShipPhysics ship = player.GetComponent<ShipPhysics>();
             ship.stopShip();
             Debug.Log("AHHHHHHHH");
         }
