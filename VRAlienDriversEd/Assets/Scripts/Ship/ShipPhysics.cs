@@ -93,15 +93,6 @@ public class ShipPhysics : MonoBehaviour {
 
     void UpdateShipPosition() {
 
-        bool hitUp = false;
-        bool hitDown = false;
-        bool hitLeft = false;
-        bool hitRight = false;
-        bool hitForward = false;
-        bool hitBackward = false;
-
-        
-
         if (Physics.Raycast(transform.position, -transform.up, collisionRange)) //Down
         {
             if (liftDirection < 0) liftDirection = 0;
@@ -111,17 +102,18 @@ public class ShipPhysics : MonoBehaviour {
             if (liftDirection > 0) liftDirection = 0;
         }
 
-        if (Physics.Raycast(transform.position + new Vector3 (0,0,1f), transform.forward,collisionRange)) //Forward
+        if (Physics.Raycast(transform.position + (transform.right*3), transform.right*4,collisionRange)) //Forward
         {
             Debug.Log("Forward Collision");
             if (throttle > 0) throttle = 0;
         }
-
+        Debug.DrawRay(transform.position+(transform.right),transform.right*20);
+        /*
         if (Physics.Raycast(transform.position,-transform.forward,collisionRange))//Backward
         {
             Debug.Log("Back Collision");
             if (throttle < 0) throttle = 0;
-        }
+        }*/
 
         Vector3 pos = transform.position;
         Vector3 throttleVec = transform.right * throttle * maxSpeed; //Apply throttle
