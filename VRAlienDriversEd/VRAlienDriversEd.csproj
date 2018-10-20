@@ -313,8 +313,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Audio\AudioEvent.cs" />
+    <Compile Include="Assets\Scripts\Audio\PlayAudio.cs" />
     <Compile Include="Assets\Scripts\Camera\LagCamera.cs" />
-    <Compile Include="Assets\Scripts\Ship\AltShipPhysics.cs" />
+    <Compile Include="Assets\Scripts\Ship\ShipPhysics.cs" />
     <Compile Include="Assets\Scripts\Ship\toggleSpring.cs" />
     <Compile Include="Assets\Scripts\Ship\UpdateControlsPosition.cs" />
     <Compile Include="Assets\Scripts\TentaclePhysics.cs" />
