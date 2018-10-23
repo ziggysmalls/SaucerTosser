@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -814,7 +814,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.9434249, y: 0.9317804, z: 0.046197977}
+  m_ConnectedAnchor: {x: 1.9434248, y: 0.93178034, z: 0.046197973}
   m_UseSpring: 1
   m_Spring:
     spring: 3
@@ -1256,7 +1256,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.2136203, y: 0.7574088, z: 1.5926456}
+  m_ConnectedAnchor: {x: 1.2136203, y: 0.75740874, z: 1.5926455}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2019,6 +2019,7 @@ Transform:
   - {fileID: 404815786}
   - {fileID: 1546695427}
   - {fileID: 178836242}
+  - {fileID: 1528496778}
   m_Father: {fileID: 1279610978}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2085,7 +2086,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100004, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
+  - {fileID: 2100000, guid: 0f1a74dfdaf589c4fa94c7d52544a808, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2203,7 +2204,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 404815785}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2686, y: 0.233, z: -2.2}
+  m_LocalPosition: {x: 0.2686, y: 0.257, z: -2.2}
   m_LocalScale: {x: 0.33826235, y: 4.43855, z: 3.5327432}
   m_Children: []
   m_Father: {fileID: 359743326}
@@ -2463,7 +2464,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.3671767, y: 0.7517869, z: 1.4812034}
+  m_ConnectedAnchor: {x: 1.3671765, y: 0.7517868, z: 1.4812033}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2713,7 +2714,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.9646139, y: 0.6309697, z: 1.5708637}
+  m_ConnectedAnchor: {x: 0.96461385, y: 0.6309697, z: 1.5708636}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3070,14 +3071,6 @@ Prefab:
     - target: {fileID: 4142277960207070, guid: bdecd10e32b4e644499c21b4a59748e2, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4142277960207070, guid: bdecd10e32b4e644499c21b4a59748e2, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4142277960207070, guid: bdecd10e32b4e644499c21b4a59748e2, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdecd10e32b4e644499c21b4a59748e2, type: 2}
@@ -5449,7 +5442,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.3674937, y: 0.8663427, z: 1.7579669}
+  m_ConnectedAnchor: {x: 1.3674936, y: 0.86634266, z: 1.7579668}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6418,7 +6411,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100022, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
-  - {fileID: 2100024, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
+  - {fileID: 2100000, guid: 0085a43d24d10fd4897046d4eea71cda, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6859,7 +6852,7 @@ HingeJoint:
   m_Anchor: {x: 0.43, y: 0.08, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.6227006, y: 0.58901876, z: -0.86814433}
+  m_ConnectedAnchor: {x: 1.6227005, y: 0.5890187, z: -0.8681443}
   m_UseSpring: 1
   m_Spring:
     spring: 3
@@ -7649,7 +7642,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1135031992}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0757383, y: 0.17279962, z: -2.027841}
+  m_LocalPosition: {x: -1.0757383, y: 0.267, z: -2.027841}
   m_LocalScale: {x: 0.33825636, y: 4.438559, z: 4.1943374}
   m_Children: []
   m_Father: {fileID: 359743326}
@@ -8707,7 +8700,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.1197389, y: 0.6252413, z: 1.4443843}
+  m_ConnectedAnchor: {x: 1.1197389, y: 0.6252412, z: 1.4443842}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -9066,7 +9059,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1361642112}
   m_LocalRotation: {x: -0, y: -0.1085609, z: -0, w: 0.99408984}
-  m_LocalPosition: {x: 0.26743004, y: 0.17559057, z: 2.2166426}
+  m_LocalPosition: {x: 0.26743004, y: 0.21, z: 2.2166426}
   m_LocalScale: {x: 0.23747243, y: 5.0066023, z: 3.8733916}
   m_Children: []
   m_Father: {fileID: 359743326}
@@ -9196,7 +9189,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100022, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
-  - {fileID: 2100024, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
+  - {fileID: 2100000, guid: 0085a43d24d10fd4897046d4eea71cda, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9400,7 +9393,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.1033589, y: 0.73666644, z: 1.728915}
+  m_ConnectedAnchor: {x: 1.1033587, y: 0.7366664, z: 1.7289149}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10246,7 +10239,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.5075763, y: 0.8628923, z: 1.6156596}
+  m_ConnectedAnchor: {x: 1.5075762, y: 0.86289227, z: 1.6156595}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10595,7 +10588,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1518539086}
   m_LocalRotation: {x: -0, y: 0.07262931, z: -0, w: 0.99735904}
-  m_LocalPosition: {x: -0.25029, y: 0.12641908, z: -2.3321}
+  m_LocalPosition: {x: -0.25029, y: 0.194, z: -2.3321}
   m_LocalScale: {x: 7.7053623, y: 3.3481808, z: 0.19884297}
   m_Children: []
   m_Father: {fileID: 359743326}
@@ -10645,6 +10638,82 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1518539086}
   m_Mesh: {fileID: 4300112, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
+--- !u!1 &1528496777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100060, guid: ce3454bbd1eb16342930e5d41e80b3b3,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528496778}
+  - component: {fileID: 1528496780}
+  - component: {fileID: 1528496779}
+  m_Layer: 0
+  m_Name: pCube20 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1528496778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400060, guid: ce3454bbd1eb16342930e5d41e80b3b3,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1528496777}
+  m_LocalRotation: {x: -0, y: -0.046751294, z: -0, w: 0.99890655}
+  m_LocalPosition: {x: -0.48516, y: 0.26, z: 1.884}
+  m_LocalScale: {x: 11.530995, y: 4.618096, z: 0.18285581}
+  m_Children: []
+  m_Father: {fileID: 359743326}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: -5.359, z: 0}
+--- !u!23 &1528496779
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2300048, guid: ce3454bbd1eb16342930e5d41e80b3b3,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1528496777}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: c8efa4349772c4e40b1ac36e09c460ab, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1528496780
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3300048, guid: ce3454bbd1eb16342930e5d41e80b3b3,
+    type: 3}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1528496777}
+  m_Mesh: {fileID: 4300124, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
 --- !u!1 &1546695426
 GameObject:
   m_ObjectHideFlags: 0
@@ -12311,7 +12380,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.231188, y: 0.8660763, z: 1.881859}
+  m_ConnectedAnchor: {x: 1.2311879, y: 0.86607623, z: 1.8818588}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -12899,7 +12968,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
+  - {fileID: 2100000, guid: 4ab0c73987cc90f4095f0806b18f20e5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13040,7 +13109,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100004, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
+  - {fileID: 2100000, guid: 0f1a74dfdaf589c4fa94c7d52544a808, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14279,7 +14348,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.16, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.6769503, y: 0.7390511, z: 0.7308308}
+  m_ConnectedAnchor: {x: 1.6769502, y: 0.73905104, z: 0.7308307}
   m_UseSpring: 1
   m_Spring:
     spring: 0
