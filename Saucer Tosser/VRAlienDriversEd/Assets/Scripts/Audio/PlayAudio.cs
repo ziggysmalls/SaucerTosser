@@ -17,8 +17,11 @@ public class PlayAudio : MonoBehaviour {
 	}
 
     private void OnCollisionEnter(Collision other)
-    {
-        GetComponent<AudioSource>().Play();
-        //Debug.Log("The audio should be playing");
+    { if (!GetComponent<AudioSource>().isPlaying)
+        {
+            GetComponent<AudioSource>().Play();
+            //Debug.Log("The audio should be playing");
+        }
+        else { GetComponent<AudioSource>().Stop(); }
     }
 }
