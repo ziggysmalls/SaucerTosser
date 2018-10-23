@@ -72,7 +72,6 @@ public class ShipPhysics : MonoBehaviour {
         {
             yawDirection = (ang - midAng) / (midAng - maxAng);
         } else yawDirection = 0;
-        Debug.Log(yawDirection);
     }
 
     void UpdateElevator()
