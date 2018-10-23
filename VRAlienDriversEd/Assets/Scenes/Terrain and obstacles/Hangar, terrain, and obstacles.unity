@@ -814,7 +814,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.9434249, y: 0.9317804, z: 0.046197977}
+  m_ConnectedAnchor: {x: 1.9434266, y: 0.9317804, z: 0.046197977}
   m_UseSpring: 1
   m_Spring:
     spring: 3
@@ -1256,7 +1256,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.2136203, y: 0.7574088, z: 1.5926456}
+  m_ConnectedAnchor: {x: 1.2136228, y: 0.7574088, z: 1.5926458}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2085,7 +2085,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100004, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
+  - {fileID: 2100000, guid: 0f1a74dfdaf589c4fa94c7d52544a808, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2463,7 +2463,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.3671767, y: 0.7517869, z: 1.4812034}
+  m_ConnectedAnchor: {x: 1.3671733, y: 0.7517869, z: 1.4812033}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2713,7 +2713,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.9646139, y: 0.6309697, z: 1.5708637}
+  m_ConnectedAnchor: {x: 0.96461725, y: 0.6309697, z: 1.570864}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3070,14 +3070,6 @@ Prefab:
     - target: {fileID: 4142277960207070, guid: bdecd10e32b4e644499c21b4a59748e2, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4142277960207070, guid: bdecd10e32b4e644499c21b4a59748e2, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4142277960207070, guid: bdecd10e32b4e644499c21b4a59748e2, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdecd10e32b4e644499c21b4a59748e2, type: 2}
@@ -5449,7 +5441,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.3674937, y: 0.8663427, z: 1.7579669}
+  m_ConnectedAnchor: {x: 1.3674954, y: 0.8663427, z: 1.7579671}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -8325,7 +8317,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279610977}
   m_LocalRotation: {x: -0, y: 0.72330713, z: -0, w: 0.6905264}
-  m_LocalPosition: {x: 22.18, y: 44.46, z: 3.979}
+  m_LocalPosition: {x: 22.18, y: 35.25, z: -43.93}
   m_LocalScale: {x: 0.28634578, y: 0.28634578, z: 0.28634578}
   m_Children:
   - {fileID: 1147095987}
@@ -8707,7 +8699,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.1197389, y: 0.6252413, z: 1.4443843}
+  m_ConnectedAnchor: {x: 1.1197324, y: 0.6252413, z: 1.444384}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -9400,7 +9392,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.1033589, y: 0.73666644, z: 1.728915}
+  m_ConnectedAnchor: {x: 1.1033572, y: 0.73666644, z: 1.728915}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10246,7 +10238,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.5075763, y: 0.8628923, z: 1.6156596}
+  m_ConnectedAnchor: {x: 1.5075814, y: 0.8628923, z: 1.6156598}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -12311,7 +12303,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.231188, y: 0.8660763, z: 1.881859}
+  m_ConnectedAnchor: {x: 1.2311847, y: 0.8660763, z: 1.8818586}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -12899,7 +12891,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
+  - {fileID: 2100000, guid: 0f1a74dfdaf589c4fa94c7d52544a808, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13040,7 +13032,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100004, guid: ce3454bbd1eb16342930e5d41e80b3b3, type: 3}
+  - {fileID: 2100000, guid: 0f1a74dfdaf589c4fa94c7d52544a808, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14279,7 +14271,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.16, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.6769503, y: 0.7390511, z: 0.7308308}
+  m_ConnectedAnchor: {x: 1.6769562, y: 0.7390511, z: 0.73083097}
   m_UseSpring: 1
   m_Spring:
     spring: 0
