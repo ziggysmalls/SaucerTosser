@@ -17,6 +17,9 @@ public class ShipPhysics : MonoBehaviour {
 
     public float collisionRange;
 
+    public float upperLimit = 300;
+    public float lowerLimit = 280;
+
     Vector3 totalVec = new Vector3(0, 0, 0);
 
 	// Use this for initialization
@@ -79,11 +82,11 @@ public class ShipPhysics : MonoBehaviour {
         
         float rot = elevator.localRotation.eulerAngles.z;
 
-        if (rot > 300)
+        if (rot > upperLimit)
         {
             liftDirection = -0.1f;
         }
-        else if (rot < 280)
+        else if (rot < lowerLimit)
         {
             liftDirection = 0.1f;
         }
@@ -120,8 +123,8 @@ public class ShipPhysics : MonoBehaviour {
         totalVec = throttleVec + elevatorVec;
 
         Vector3 rot = transform.eulerAngles;
-        rot.y += yawDirection;// * turnSpeed * Time.deltaTime;
-        yTransform.Rotate(transform.up,yawDirection,Space.Self);
+        rot.y += yawDirection;
+        yTransform.Rotate(transform.up,yawDirection*turnSpeed,Space.Self);
         transform.position += totalVec;
     }
 
