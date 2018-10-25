@@ -122,7 +122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4972928}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Switch1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 30620120}
   - component: {fileID: 30620119}
   - component: {fileID: 30620118}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tentacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 39158481}
   - component: {fileID: 39158483}
   - component: {fileID: 39158482}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 41833948}
   - component: {fileID: 41833947}
   - component: {fileID: 41833946}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tentacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -655,7 +655,7 @@ GameObject:
   - component: {fileID: 101864985}
   - component: {fileID: 101864984}
   - component: {fileID: 101864983}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joystick_Stick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -743,7 +743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 137755795}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Switch8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -779,7 +779,7 @@ GameObject:
   - component: {fileID: 159449706}
   - component: {fileID: 159449705}
   - component: {fileID: 159449708}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TurnLever_rot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -812,7 +812,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.9434233, y: 0.9317804, z: 0.04619777}
+  m_ConnectedAnchor: {x: 1.9434389, y: 0.9317737, z: 0.046211194}
   m_UseSpring: 1
   m_Spring:
     spring: 3
@@ -1058,7 +1058,7 @@ GameObject:
   - component: {fileID: 179954640}
   - component: {fileID: 179954643}
   - component: {fileID: 179954644}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube4 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1145,7 +1145,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.2136195, y: 0.7574088, z: 1.5926456}
+  m_ConnectedAnchor: {x: 1.2136364, y: 0.7574021, z: 1.5926605}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -1364,7 +1364,7 @@ Transform:
   - {fileID: 591934252}
   - {fileID: 950081899}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &203010297 stripped
 GameObject:
@@ -1689,7 +1689,7 @@ GameObject:
   - component: {fileID: 282401040}
   - component: {fileID: 282401042}
   - component: {fileID: 282401041}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1842,7 +1842,7 @@ GameObject:
   - component: {fileID: 315907006}
   - component: {fileID: 315907008}
   - component: {fileID: 315907007}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1991,7 +1991,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 359743326}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Non-Interactable Geometry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2407,7 +2407,7 @@ GameObject:
   - component: {fileID: 445394956}
   - component: {fileID: 445394957}
   - component: {fileID: 445394958}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube4 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2482,7 +2482,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.3671767, y: 0.7517869, z: 1.4812034}
+  m_ConnectedAnchor: {x: 1.3671697, y: 0.7517869, z: 1.481183}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2657,7 +2657,7 @@ GameObject:
   - component: {fileID: 478592332}
   - component: {fileID: 478592335}
   - component: {fileID: 478592336}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube4 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2732,7 +2732,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.9646139, y: 0.6309697, z: 1.5708637}
+  m_ConnectedAnchor: {x: 0.9645916, y: 0.630963, z: 1.5708526}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2982,7 +2982,7 @@ GameObject:
   - component: {fileID: 510067489}
   - component: {fileID: 510067493}
   - component: {fileID: 510067488}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: VRCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -3253,7 +3253,7 @@ GameObject:
   - component: {fileID: 566060923}
   - component: {fileID: 566060925}
   - component: {fileID: 566060924}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3804,7 +3804,7 @@ GameObject:
   - component: {fileID: 622295556}
   - component: {fileID: 622295558}
   - component: {fileID: 622295557}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DOWN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4125,7 +4125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 659016614}
   - component: {fileID: 659016615}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ControllerHoverHighlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4169,7 +4169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 663396809}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: Attach_ControllerTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4361,7 +4361,7 @@ GameObject:
   - component: {fileID: 698090560}
   - component: {fileID: 698090562}
   - component: {fileID: 698090561}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube3 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4469,7 +4469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 704914587}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Switch4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4552,7 +4552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 730607254}
   - component: {fileID: 730607255}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Radio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4600,7 +4600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 730639710}
   - component: {fileID: 730639711}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joystick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4684,7 +4684,7 @@ GameObject:
   - component: {fileID: 735761723}
   - component: {fileID: 735761725}
   - component: {fileID: 735761724}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: HeadCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4745,7 +4745,7 @@ GameObject:
   - component: {fileID: 739777494}
   - component: {fileID: 739777496}
   - component: {fileID: 739777495}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4821,7 +4821,7 @@ GameObject:
   - component: {fileID: 751647388}
   - component: {fileID: 751647390}
   - component: {fileID: 751647389}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube3 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4996,7 +4996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 770325558}
   - component: {fileID: 770325559}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: Hand2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5125,7 +5125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 793318621}
   - component: {fileID: 793318622}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: '[SteamVR]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5208,7 +5208,7 @@ GameObject:
   - component: {fileID: 827230600}
   - component: {fileID: 827230602}
   - component: {fileID: 827230601}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RotaleLocater
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5538,7 +5538,7 @@ GameObject:
   - component: {fileID: 847797406}
   - component: {fileID: 847797409}
   - component: {fileID: 847797410}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube4 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5625,7 +5625,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.3674954, y: 0.8663427, z: 1.7579671}
+  m_ConnectedAnchor: {x: 1.3674957, y: 0.8663427, z: 1.7579627}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -5782,7 +5782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 852744412}
   - component: {fileID: 852744413}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ControllerHoverHighlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5833,7 +5833,7 @@ GameObject:
   - component: {fileID: 855882730}
   - component: {fileID: 855882731}
   - component: {fileID: 855882732}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube4 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6188,7 +6188,7 @@ GameObject:
   - component: {fileID: 881185226}
   - component: {fileID: 881185224}
   - component: {fileID: 881185225}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FallbackObjects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6265,6 +6265,107 @@ Transform:
   m_Father: {fileID: 1553109869}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &883982896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 883982900}
+  - component: {fileID: 883982899}
+  - component: {fileID: 883982898}
+  - component: {fileID: 883982897}
+  - component: {fileID: 883982901}
+  m_Layer: 8
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &883982897
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 883982896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &883982898
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 883982896}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &883982899
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 883982896}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &883982900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 883982896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 79.62045, y: 26.27, z: -136.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &883982901
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 883982896}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &889133152
 GameObject:
   m_ObjectHideFlags: 0
@@ -6274,7 +6375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 889133153}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SteamVRObjects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6346,7 +6447,7 @@ GameObject:
   - component: {fileID: 896158177}
   - component: {fileID: 896158179}
   - component: {fileID: 896158178}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6842,7 +6943,7 @@ GameObject:
   - component: {fileID: 955940894}
   - component: {fileID: 955940896}
   - component: {fileID: 955940895}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube3 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6948,7 +7049,7 @@ GameObject:
   - component: {fileID: 972865427}
   - component: {fileID: 972865429}
   - component: {fileID: 972865428}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7025,7 +7126,7 @@ GameObject:
   - component: {fileID: 981785965}
   - component: {fileID: 981785964}
   - component: {fileID: 981785966}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: MIDDLE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7125,7 +7226,7 @@ GameObject:
   - component: {fileID: 1013736726}
   - component: {fileID: 1013736727}
   - component: {fileID: 1013736725}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Elevator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7159,7 +7260,7 @@ HingeJoint:
   m_Anchor: {x: 0.43, y: 0.08, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.6227006, y: 0.58901876, z: -0.86814433}
+  m_ConnectedAnchor: {x: 1.6227145, y: 0.5890121, z: -0.8681237}
   m_UseSpring: 1
   m_Spring:
     spring: 3
@@ -7219,7 +7320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1014419515}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RotateHandle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7417,7 +7518,7 @@ GameObject:
   - component: {fileID: 1060828360}
   - component: {fileID: 1060828362}
   - component: {fileID: 1060828361}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7491,7 +7592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1061309185}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: Attach_ControllerTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7523,7 +7624,7 @@ GameObject:
   - component: {fileID: 1070668827}
   - component: {fileID: 1070668829}
   - component: {fileID: 1070668828}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joystick_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7749,7 +7850,7 @@ GameObject:
   - component: {fileID: 1108063723}
   - component: {fileID: 1108063722}
   - component: {fileID: 1108063721}
-  m_Layer: 27
+  m_Layer: 9
   m_Name: BodyCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8009,7 +8110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1135989578}
   - component: {fileID: 1135989579}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: ControllerButtonHints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8142,7 +8243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1147095987}
   - component: {fileID: 1147095988}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8236,7 +8337,7 @@ GameObject:
   - component: {fileID: 1159135909}
   - component: {fileID: 1159135911}
   - component: {fileID: 1159135910}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube3 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8452,7 +8553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1180163741}
   - component: {fileID: 1180163742}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: ControllerButtonHints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8550,7 +8651,7 @@ GameObject:
   - component: {fileID: 1233895114}
   - component: {fileID: 1233895116}
   - component: {fileID: 1233895115}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: FallbackHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8614,6 +8715,76 @@ MonoBehaviour:
   controllerPrefab: {fileID: 0}
   showDebugText: 0
   spewDebugText: 0
+--- !u!1 &1241494225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1241494229}
+  - component: {fileID: 1241494228}
+  - component: {fileID: 1241494227}
+  - component: {fileID: 1241494226}
+  m_Layer: 8
+  m_Name: UFO Rigidbody
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1241494226
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1241494225}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.85, y: 1, z: 12.2}
+  m_Center: {x: 0, y: -1.1, z: 0}
+--- !u!135 &1241494227
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1241494225}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.96
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1241494228
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1241494225}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 32
+  m_CollisionDetection: 0
+--- !u!4 &1241494229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1241494225}
+  m_LocalRotation: {x: -0, y: -0.44606063, z: -0, w: 0.8950028}
+  m_LocalPosition: {x: 78.67, y: 24.81, z: -136.25}
+  m_LocalScale: {x: 0.28634584, y: 0.28634578, z: 0.28634584}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 92.656006, z: 0}
 --- !u!1001 &1250966941
 Prefab:
   m_ObjectHideFlags: 0
@@ -8710,7 +8881,8 @@ GameObject:
   - component: {fileID: 1279610979}
   - component: {fileID: 1279610980}
   - component: {fileID: 1279610984}
-  m_Layer: 8
+  - component: {fileID: 1279610981}
+  m_Layer: 0
   m_Name: UFO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8724,8 +8896,8 @@ Transform:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279610977}
-  m_LocalRotation: {x: -0, y: 0.72330713, z: -0, w: 0.6905264}
-  m_LocalPosition: {x: 24.82, y: 35.86, z: -14.11}
+  m_LocalRotation: {x: -0, y: -0.44606063, z: -0, w: 0.8950028}
+  m_LocalPosition: {x: 78.67, y: 24.81, z: -136.25}
   m_LocalScale: {x: 0.28634578, y: 0.28634578, z: 0.28634578}
   m_Children:
   - {fileID: 1147095987}
@@ -8734,8 +8906,8 @@ Transform:
   - {fileID: 1451162902}
   - {fileID: 762410351}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 92.656006, z: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: -52.982002, z: 0}
 --- !u!54 &1279610979
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8770,6 +8942,18 @@ MonoBehaviour:
   collisionRange: 1
   upperLimit: 283
   lowerLimit: 270
+--- !u!114 &1279610981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1279610977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc45281df9d937468ecf9a0099e75d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTransform: {fileID: 1241494229}
 --- !u!135 &1279610984
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8795,7 +8979,7 @@ GameObject:
   - component: {fileID: 1287063809}
   - component: {fileID: 1287063808}
   - component: {fileID: 1287063807}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: _Stats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8983,7 +9167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1305646194}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Switch7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9022,7 +9206,7 @@ GameObject:
   - component: {fileID: 1310757266}
   - component: {fileID: 1310757269}
   - component: {fileID: 1310757270}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube4 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9109,7 +9293,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.1197389, y: 0.6252413, z: 1.4443843}
+  m_ConnectedAnchor: {x: 1.1197517, y: 0.6252413, z: 1.4443842}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -9469,7 +9653,7 @@ GameObject:
   - component: {fileID: 1357540921}
   - component: {fileID: 1357540923}
   - component: {fileID: 1357540922}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube3 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9819,7 +10003,7 @@ GameObject:
   - component: {fileID: 1382744696}
   - component: {fileID: 1382744699}
   - component: {fileID: 1382744700}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube4 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9894,7 +10078,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.1033605, y: 0.73666644, z: 1.7289151}
+  m_ConnectedAnchor: {x: 1.1033571, y: 0.73666644, z: 1.7289112}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10216,7 +10400,7 @@ GameObject:
   - component: {fileID: 1424698329}
   - component: {fileID: 1424698331}
   - component: {fileID: 1424698330}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10324,7 +10508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1428663057}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FollowHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10356,7 +10540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1429320748}
   - component: {fileID: 1429320747}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: Hand1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10416,7 +10600,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1445393222}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: '[Status]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10447,7 +10631,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1451162902}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Interactable Geometry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10484,7 +10668,7 @@ GameObject:
   - component: {fileID: 1471045532}
   - component: {fileID: 1471045534}
   - component: {fileID: 1471045533}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube3 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10559,7 +10743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1482590410}
   - component: {fileID: 1482590411}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Overlay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10653,7 +10837,7 @@ GameObject:
   - component: {fileID: 1499700255}
   - component: {fileID: 1499700258}
   - component: {fileID: 1499700259}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10740,7 +10924,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.5075747, y: 0.8628923, z: 1.6156596}
+  m_ConnectedAnchor: {x: 1.5075734, y: 0.8628923, z: 1.6156499}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -10899,7 +11083,7 @@ GameObject:
   - component: {fileID: 1500629103}
   - component: {fileID: 1500629102}
   - component: {fileID: 1500629104}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: UP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10998,7 +11182,7 @@ GameObject:
   - component: {fileID: 1506521216}
   - component: {fileID: 1506521218}
   - component: {fileID: 1506521217}
-  m_Layer: 26
+  m_Layer: 9
   m_Name: Indicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11305,7 +11489,7 @@ GameObject:
   - component: {fileID: 1547326966}
   - component: {fileID: 1547326968}
   - component: {fileID: 1547326967}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RIGHT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11544,7 +11728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1553109869}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: NoSteamVRFallbackObjects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11576,7 +11760,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1556235212}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Switch3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11657,7 +11841,7 @@ GameObject:
   - component: {fileID: 1627264462}
   - component: {fileID: 1627264461}
   - component: {fileID: 1627264460}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: InputModule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11736,7 +11920,7 @@ GameObject:
   - component: {fileID: 1634574782}
   - component: {fileID: 1634574781}
   - component: {fileID: 1634574780}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11839,7 +12023,7 @@ GameObject:
   - component: {fileID: 1636866613}
   - component: {fileID: 1636866615}
   - component: {fileID: 1636866614}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube14 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11968,7 +12152,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1643467613}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TurnLever
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12122,7 +12306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1692489258}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Switchboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12321,7 +12505,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1722769647}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Switch5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12464,7 +12648,7 @@ GameObject:
   - component: {fileID: 1764854868}
   - component: {fileID: 1764854866}
   - component: {fileID: 1764854867}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCylinder19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12659,7 +12843,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1784770622}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RotateHandle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12722,7 +12906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1795334202}
   - component: {fileID: 1795334203}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DebugUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12764,7 +12948,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1800679402}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Switch9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12872,7 +13056,7 @@ GameObject:
   - component: {fileID: 1825742479}
   - component: {fileID: 1825742482}
   - component: {fileID: 1825742483}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube4 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12947,7 +13131,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.1, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.231188, y: 0.8660763, z: 1.881859}
+  m_ConnectedAnchor: {x: 1.231169, y: 0.86608297, z: 1.8818473}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -13267,7 +13451,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1845643043}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Pulley
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13492,7 +13676,7 @@ GameObject:
   - component: {fileID: 1877263095}
   - component: {fileID: 1877263097}
   - component: {fileID: 1877263096}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pSphere2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13568,7 +13752,7 @@ GameObject:
   - component: {fileID: 1880905445}
   - component: {fileID: 1880905447}
   - component: {fileID: 1880905446}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube14 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13642,7 +13826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1896793794}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Switch2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13896,7 +14080,7 @@ GameObject:
   - component: {fileID: 1928527518}
   - component: {fileID: 1928527520}
   - component: {fileID: 1928527519}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LEFT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14262,7 +14446,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1973268794}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Switch6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14299,7 +14483,7 @@ GameObject:
   - component: {fileID: 1976327947}
   - component: {fileID: 1976327949}
   - component: {fileID: 1976327948}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14530,7 +14714,7 @@ GameObject:
   - component: {fileID: 1994492364}
   - component: {fileID: 1994492366}
   - component: {fileID: 1994492365}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube3 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14682,7 +14866,7 @@ GameObject:
   - component: {fileID: 2018969133}
   - component: {fileID: 2018969135}
   - component: {fileID: 2018969134}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pSphere3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14824,7 +15008,7 @@ GameObject:
   - component: {fileID: 2045187632}
   - component: {fileID: 2045187635}
   - component: {fileID: 2045187636}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joystick_Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15022,7 +15206,7 @@ GameObject:
   - component: {fileID: 2057641103}
   - component: {fileID: 2057641105}
   - component: {fileID: 2057641104}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pCube14 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15216,7 +15400,7 @@ GameObject:
   - component: {fileID: 2118525851}
   - component: {fileID: 2118525852}
   - component: {fileID: 2118525854}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Joystick_Stick_Rot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15266,7 +15450,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.16, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.6769495, y: 0.7390511, z: 0.7308308}
+  m_ConnectedAnchor: {x: 1.6769494, y: 0.7390511, z: 0.7308315}
   m_UseSpring: 1
   m_Spring:
     spring: 0
