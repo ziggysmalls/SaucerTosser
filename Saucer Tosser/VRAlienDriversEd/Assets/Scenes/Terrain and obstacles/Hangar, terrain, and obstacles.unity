@@ -209,7 +209,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!135 &30620120
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -407,7 +407,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!135 &41833948
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -861,7 +861,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!136 &159449708
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1858,7 +1858,7 @@ HingeJoint:
   m_Anchor: {x: 0.015, y: 0, z: 0.17}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.6228433, y: 2.6244466, z: -0.014532269}
+  m_ConnectedAnchor: {x: 1.6228433, y: 2.382579, z: -0.014532269}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -4710,15 +4710,15 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 730639709}
-  m_LocalRotation: {x: -0.024594206, y: 0.024563108, z: 0.22239578, w: 0.9743367}
-  m_LocalPosition: {x: 0.3483425, y: -0.808, z: 0.12298578}
+  m_LocalRotation: {x: -0.04999654, y: 0.04429117, z: 0.36104107, w: 0.93015486}
+  m_LocalPosition: {x: 0.90118414, y: -1.1252824, z: 0.26207045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1070668827}
   - {fileID: 2118525851}
   m_Father: {fileID: 1451162902}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -3.374, y: 2.1200001, z: 25.653002}
+  m_LocalEulerAnglesHint: {x: -7.1800003, y: 2.674, z: 42.260002}
 --- !u!54 &730639711
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4734,7 +4734,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1 &734009097 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100076, guid: 985db4f9e62c79d4ebcdcad7db1361c9,
@@ -5460,7 +5460,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 835300449}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.63386726, z: 0}
+  m_LocalPosition: {x: 0, y: 0.392, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1120217430}
@@ -7296,7 +7296,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &1013736727
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7307,7 +7307,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.26, y: 0.35, z: 0.56}
+  m_Size: {x: 0.42, y: 0.19, z: 0.49}
   m_Center: {x: 0.05, y: 0.02, z: 0.08}
 --- !u!1 &1014419514
 GameObject:
@@ -15519,7 +15519,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!59 &2118525854
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -15531,7 +15531,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: -0.16, z: 0}
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.6769494, y: 0.7390511, z: 0.7308315}
+  m_ConnectedAnchor: {x: 1.7446685, y: 0.7697383, z: 0.7368784}
   m_UseSpring: 1
   m_Spring:
     spring: 0
