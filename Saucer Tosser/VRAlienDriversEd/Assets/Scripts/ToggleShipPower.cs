@@ -47,6 +47,8 @@ public class ToggleShipPower : MonoBehaviour {
         shipPowered = true;
         shipPhysics.enabled = true;
         shipRigidbody.useGravity = false;
+        //shipRigidbody.angularDrag = 100;
+        //shipRigidbody.drag = 100;
         foreach (GameObject shipLight in shipLights)
         {
             //shipLight.GetComponent<Light>().enabled = true;
@@ -58,7 +60,10 @@ public class ToggleShipPower : MonoBehaviour {
     {
         shipPowered = false;
         shipPhysics.enabled = false;
+        
         shipRigidbody.useGravity = true;
+        //shipRigidbody.angularDrag = 0;
+        //shipRigidbody.drag = 0;
         foreach (GameObject shipLight in shipLights)
         {
             //shipLight.GetComponent<Light>().enabled = false;

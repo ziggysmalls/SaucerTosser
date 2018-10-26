@@ -95,28 +95,6 @@ public class ShipPhysics : MonoBehaviour {
 
     void UpdateShipPosition() {
 
-        if (Physics.Raycast(transform.position, -transform.up, collisionRange)) //Down
-        {
-            if (liftDirection < 0) liftDirection = 0;
-        }
-        if (Physics.Raycast(transform.position, transform.up, collisionRange)) //Down
-        {
-            if (liftDirection > 0) liftDirection = 0;
-        }
-
-        if (Physics.Raycast(transform.position + (transform.right*3), transform.right*4,collisionRange)) //Forward
-        {
-            Debug.Log("Forward Collision");
-            if (throttle > 0) throttle = 0;
-        }
-        Debug.DrawRay(transform.position+(transform.right),transform.right*20);
-        /*
-        if (Physics.Raycast(transform.position,-transform.forward,collisionRange))//Backward
-        {
-            Debug.Log("Back Collision");
-            if (throttle < 0) throttle = 0;
-        }*/
-
         Vector3 pos = transform.position;
         Vector3 throttleVec = transform.right * throttle * maxSpeed; //Apply throttle
         Vector3 elevatorVec = transform.up * liftDirection; //Apply elevator
@@ -128,12 +106,15 @@ public class ShipPhysics : MonoBehaviour {
         //transform.position += totalVec;
 
         //rb.AddForce(elevatorVec*steadySpeed) ;//totalVec;
-        rb.velocity = (elevatorVec * liftSpeed)+throttleVec;
-        rb.angularVelocity = new Vector3(0,yawDirection * turnSpeed,0);
+       
 
         float xr = Mathf.Lerp(transform.rotation.x,0, .00001f);
         float zr = Mathf.Lerp(transform.rotation.y, 0, .00001f);
-        transform.rotation = Quaternion.Euler(xr, transform.rotation.y, zr);
+        //transform.rotation = Quaternion.Euler(xr, transform.rotation.y, zr);
+        //rb.rotation = (Quaternion.Euler(0, rot.y, 0));
+        //rb.velocity = (elevatorVec * liftSpeed)+throttleVec;
+        rb.velocity = ((elevatorVec * liftSpeed) + throttleVec);
+        rb.MoveRotation(Quaternion.Euler(0, rot.y, 0));
 
 
     }

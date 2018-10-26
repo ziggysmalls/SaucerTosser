@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4801381113186114}
   - component: {fileID: 65839533422633848}
   - component: {fileID: 114569989252973156}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TriggerZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4811897259819140}
   - component: {fileID: 33783976566528112}
   - component: {fileID: 23775160777137006}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rope1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,24 +56,8 @@ GameObject:
   - component: {fileID: 33362759000738996}
   - component: {fileID: 23284827979256954}
   - component: {fileID: 114592794343769324}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1125198046845622
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4505890282190574}
-  - component: {fileID: 65281608196439724}
-  m_Layer: 0
-  m_Name: GateCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89,7 +73,7 @@ GameObject:
   - component: {fileID: 4095699005617540}
   - component: {fileID: 108977450859547258}
   - component: {fileID: 114630645442801434}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +90,7 @@ GameObject:
   - component: {fileID: 4339436981243044}
   - component: {fileID: 108166105231397254}
   - component: {fileID: 114840119905461416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spot Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +107,7 @@ GameObject:
   - component: {fileID: 4005322186182968}
   - component: {fileID: 33094440649038604}
   - component: {fileID: 23463265846232632}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +125,7 @@ GameObject:
   - component: {fileID: 33648114545409498}
   - component: {fileID: 23654512799888448}
   - component: {fileID: 114562045294138856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +142,7 @@ GameObject:
   - component: {fileID: 4622456003168716}
   - component: {fileID: 33477960073118046}
   - component: {fileID: 23673767820373220}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +160,7 @@ GameObject:
   - component: {fileID: 33003965002288366}
   - component: {fileID: 23115068337283572}
   - component: {fileID: 114150699484210736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,7 +177,7 @@ GameObject:
   - component: {fileID: 4785149973587618}
   - component: {fileID: 33486799796613404}
   - component: {fileID: 23917589772269788}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +195,7 @@ GameObject:
   - component: {fileID: 108404030426805728}
   - component: {fileID: 114293112712128668}
   - component: {fileID: 114747718213703324}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +212,7 @@ GameObject:
   - component: {fileID: 4987562504720762}
   - component: {fileID: 33286146485854362}
   - component: {fileID: 23662950244994466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +229,7 @@ GameObject:
   - component: {fileID: 4503947354672670}
   - component: {fileID: 108739926060371626}
   - component: {fileID: 114472587806658300}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spot Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +247,7 @@ GameObject:
   - component: {fileID: 33710666579339002}
   - component: {fileID: 23865046796062950}
   - component: {fileID: 114909543883031454}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +265,7 @@ GameObject:
   - component: {fileID: 33484632996908944}
   - component: {fileID: 23185426618463784}
   - component: {fileID: 114392473193675538}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -297,7 +281,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4142277960207070}
   - component: {fileID: 114816764107482024}
-  m_Layer: 0
+  - component: {fileID: 65661292152917826}
+  - component: {fileID: 65382294717183528}
+  - component: {fileID: 65982528040029354}
+  - component: {fileID: 65457722434299616}
+  m_Layer: 8
   m_Name: SpaceGate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +329,7 @@ Transform:
   m_LocalScale: {x: 19.420834, y: 1.6330106, z: 19.420834}
   m_Children: []
   m_Father: {fileID: 4142277960207070}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4095699005617540
 Transform:
@@ -349,7 +337,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1238590366532990}
-  m_LocalRotation: {x: 0.46682355, y: -0.46682355, z: 0.5311081, w: 0.5311081}
+  m_LocalRotation: {x: -0.06391163, y: 0.06391163, z: 0.70421255, w: 0.70421255}
   m_LocalPosition: {x: -1.8200004, y: 8.349316, z: 3.8900015}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -379,7 +367,6 @@ Transform:
   - {fileID: 4785149973587618}
   - {fileID: 4811897259819140}
   - {fileID: 4987562504720762}
-  - {fileID: 4505890282190574}
   - {fileID: 4801381113186114}
   - {fileID: 4041546421085988}
   m_Father: {fileID: 0}
@@ -404,7 +391,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1327513194734382}
-  m_LocalRotation: {x: 0.46682355, y: -0.46682355, z: 0.5311081, w: 0.5311081}
+  m_LocalRotation: {x: -0.06391163, y: 0.06391163, z: 0.70421255, w: 0.70421255}
   m_LocalPosition: {x: 0.87999785, y: 8.349316, z: -4.1200013}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -417,26 +404,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1698599021755588}
-  m_LocalRotation: {x: 0.46682352, y: -0.46682352, z: 0.5311081, w: 0.5311081}
+  m_LocalRotation: {x: -0.06391163, y: 0.06391163, z: 0.70421255, w: 0.70421255}
   m_LocalPosition: {x: 0.8799969, y: 8.349316, z: 3.8900018}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4142277960207070}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 97.37201, y: -180, z: -90}
---- !u!4 &4505890282190574
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1125198046845622}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.47000128, y: -0.15068245, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4142277960207070}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4517539588764862
 Transform:
   m_ObjectHideFlags: 1
@@ -469,7 +443,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1651595429960230}
-  m_LocalRotation: {x: 0.46682352, y: -0.46682352, z: 0.5311081, w: 0.5311081}
+  m_LocalRotation: {x: -0.06391163, y: 0.06391163, z: 0.70421255, w: 0.70421255}
   m_LocalPosition: {x: -1.8199995, y: 8.349316, z: -4.120002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -513,7 +487,7 @@ Transform:
   m_LocalScale: {x: 11.737193, y: 10.407, z: 1}
   m_Children: []
   m_Father: {fileID: 4142277960207070}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4811897259819140
 Transform:
@@ -961,18 +935,42 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1068726633329360}
   m_Mesh: {fileID: 4300014, guid: cf142fd8b9800964abc311b2de44b7af, type: 3}
---- !u!65 &65281608196439724
+--- !u!65 &65382294717183528
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1125198046845622}
+  m_GameObject: {fileID: 1915823715344046}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 11.27, y: 9.76, z: 0.28}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: -3.81, y: 10.57, z: 2.8}
+  m_Center: {x: 0, y: 0, z: 6.18}
+--- !u!65 &65457722434299616
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915823715344046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -3.63, y: 2.42, z: 10.86}
+  m_Center: {x: 0, y: 6.37, z: 0}
+--- !u!65 &65661292152917826
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915823715344046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -3.81, y: 10.57, z: 2.8}
+  m_Center: {x: 0, y: 0, z: -6.18}
 --- !u!65 &65839533422633848
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -985,6 +983,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65982528040029354
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915823715344046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -3.63, y: 2.42, z: 10.86}
+  m_Center: {x: 0, y: -6.37, z: 0}
 --- !u!108 &108166105231397254
 Light:
   m_ObjectHideFlags: 1
