@@ -10,6 +10,7 @@ public class ToggleShipPower : MonoBehaviour {
     bool buttonDown = false;
 
     public ShipPhysics shipPhysics;
+    public Rigidbody shipRigidbody;
 
 	// Use this for initialization
 	void Start () {
@@ -44,11 +45,13 @@ public class ToggleShipPower : MonoBehaviour {
     {
         shipPowered = true;
         shipPhysics.enabled = true;
+        shipRigidbody.useGravity = false;
     }
 
     public void ToggleShipPowerOff()
     {
         shipPowered = false;
         shipPhysics.enabled = false;
+        shipRigidbody.useGravity = true;
     }
 }

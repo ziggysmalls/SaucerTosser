@@ -16,16 +16,16 @@ public class ShipPhysics : MonoBehaviour {
     float liftDirection;
 
     public float collisionRange;
-
-    public float upperLimit = 300;
-    public float lowerLimit = 280;
+    public float liftSpeed = 20;
 
     Vector3 totalVec = new Vector3(0, 0, 0);
+
+    Rigidbody rb;
 
 	// Use this for initialization
 	void Start () {
 		yTransform = transform;
-		
+        rb = GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
@@ -82,11 +82,11 @@ public class ShipPhysics : MonoBehaviour {
         
         float rot = elevator.localRotation.eulerAngles.z;
 
-        if (rot > upperLimit)
+        if (rot > 283)
         {
             liftDirection = -0.1f;
         }
-        else if (rot < lowerLimit)
+        else if (rot < 270)
         {
             liftDirection = 0.1f;
         }
@@ -124,8 +124,21 @@ public class ShipPhysics : MonoBehaviour {
 
         Vector3 rot = transform.eulerAngles;
         rot.y += yawDirection;
-        yTransform.Rotate(transform.up,yawDirection*turnSpeed,Space.Self);
-        transform.position += totalVec;
+        //yTransform.Rotate(transform.up,yawDirection*turnSpeed,Space.Self);
+        //transform.position += totalVec;
+
+        //rb.AddForce(elevatorVec*steadySpeed) ;//totalVec;
+        rb.velocity = elevatorVec * liftSpeed;
+        Debug.Log(liftDirection);
+        Debug.Log(rot);
+
+        float xr;
+        float zr;
+        xr = Mathf.Lerp(transform.rotation.x,0, .001f);
+        zr = Mathf.Lerp(transform.rotation.y, 0, .001f);
+        transform.rotation = Quaternion.Euler(xr, transform.rotation.y, zr);
+
+
     }
 
     public void stopShip()
