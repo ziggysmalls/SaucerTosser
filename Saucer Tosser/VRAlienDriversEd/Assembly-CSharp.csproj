@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\terrainCollision.cs" />
     <Compile Include="Assets\Scripts\ToggleShipPower.cs" />
     <Compile Include="Assets\Scripts\UnityExtensions\UnityExtensions.cs" />
+    <Compile Include="Assets\ShipLight.cs" />
     <Compile Include="Assets\SpacegateTrigger.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\BodyCollider.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\CircularDrive.cs" />

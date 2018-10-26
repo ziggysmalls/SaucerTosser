@@ -128,14 +128,11 @@ public class ShipPhysics : MonoBehaviour {
         //transform.position += totalVec;
 
         //rb.AddForce(elevatorVec*steadySpeed) ;//totalVec;
-        rb.velocity = elevatorVec * liftSpeed;
-        Debug.Log(liftDirection);
-        Debug.Log(rot);
+        rb.velocity = (elevatorVec * liftSpeed)+throttleVec;
+        rb.angularVelocity = new Vector3(0,yawDirection * turnSpeed,0);
 
-        float xr;
-        float zr;
-        xr = Mathf.Lerp(transform.rotation.x,0, .001f);
-        zr = Mathf.Lerp(transform.rotation.y, 0, .001f);
+        float xr = Mathf.Lerp(transform.rotation.x,0, .00001f);
+        float zr = Mathf.Lerp(transform.rotation.y, 0, .00001f);
         transform.rotation = Quaternion.Euler(xr, transform.rotation.y, zr);
 
 

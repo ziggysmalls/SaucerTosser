@@ -8419,7 +8419,7 @@ GameObject:
   - component: {fileID: 1176225284}
   - component: {fileID: 1176225283}
   m_Layer: 0
-  m_Name: pCube7
+  m_Name: Scanner Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8740,7 +8740,7 @@ MonoBehaviour:
   joystick: {fileID: 2118525851}
   turnHandle: {fileID: 159449703}
   elevator: {fileID: 1013736722}
-  maxSpeed: 0.2
+  maxSpeed: 13
   turnSpeed: 0.7
   collisionRange: 1
   liftSpeed: 20
@@ -13401,7 +13401,7 @@ Transform:
   m_GameObject: {fileID: 1832091408}
   m_LocalRotation: {x: -0, y: -0.72330713, z: -0, w: 0.6905264}
   m_LocalPosition: {x: 1.578, y: 1.9832523, z: -0.013}
-  m_LocalScale: {x: 0.56644124, y: 0.2923656, z: 0.044205293}
+  m_LocalScale: {x: -0.5664412, y: 0.2923656, z: 0.044205293}
   m_Children: []
   m_Father: {fileID: 835300450}
   m_RootOrder: 3
@@ -15700,6 +15700,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shipPhysics: {fileID: 1241494230}
   shipRigidbody: {fileID: 1241494228}
+  shipLights:
+  - {fileID: 2145446276}
+  - {fileID: 1176225281}
 --- !u!1001 &2129375421
 Prefab:
   m_ObjectHideFlags: 0
@@ -15756,6 +15759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2145446277}
   - component: {fileID: 2145446278}
+  - component: {fileID: 2145446279}
   m_Layer: 0
   m_Name: Ship Light
   m_TagString: Untagged
@@ -15786,9 +15790,9 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.51174796, g: 0.92666626, b: 0.9433962, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 10
-  m_SpotAngle: 71.86801
+  m_SpotAngle: 134.3
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -15813,6 +15817,17 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &2145446279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145446276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 803b80b6426100f4e8e95bd62cef4e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2147261497
 Prefab:
   m_ObjectHideFlags: 0

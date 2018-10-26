@@ -11,6 +11,7 @@ public class ToggleShipPower : MonoBehaviour {
 
     public ShipPhysics shipPhysics;
     public Rigidbody shipRigidbody;
+    public GameObject[] shipLights;
 
 	// Use this for initialization
 	void Start () {
@@ -46,6 +47,11 @@ public class ToggleShipPower : MonoBehaviour {
         shipPowered = true;
         shipPhysics.enabled = true;
         shipRigidbody.useGravity = false;
+        foreach (GameObject shipLight in shipLights)
+        {
+            //shipLight.GetComponent<Light>().enabled = true;
+            shipLight.SetActive(true);
+        }
     }
 
     public void ToggleShipPowerOff()
@@ -53,5 +59,10 @@ public class ToggleShipPower : MonoBehaviour {
         shipPowered = false;
         shipPhysics.enabled = false;
         shipRigidbody.useGravity = true;
+        foreach (GameObject shipLight in shipLights)
+        {
+            //shipLight.GetComponent<Light>().enabled = false;
+            shipLight.SetActive(false);
+        }
     }
 }
