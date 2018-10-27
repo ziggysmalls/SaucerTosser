@@ -119,8 +119,12 @@ public class ShipPhysics : MonoBehaviour {
 
     }
 
-    public void stopShip()
+    public void OnCollisionEnter(Collision col)
     {
-        transform.position -= totalVec;
+        if ((col.gameObject.layer == 8) && (throttle > .1f))
+        {
+            ToggleShipPower power = GameObject.FindGameObjectWithTag("Power").GetComponent<ToggleShipPower>();
+            power.ToggleShipPowerOff();
+        }
     }
 }

@@ -13,15 +13,4 @@ public class terrainCollision : MonoBehaviour {
 	void Update () {
 		
 	}
-
-    void OnCollisionStay(Collision collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            GameObject player = collision.gameObject;
-            ShipPhysics ship = player.GetComponent<ShipPhysics>();
-            ship.stopShip();
-            Debug.Log("AHHHHHHHH");
-        }
-    }
 }
