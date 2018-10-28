@@ -11,7 +11,7 @@ public class ShipPhysics : MonoBehaviour {
     public float turnSpeed;
 	Transform yTransform;
 
-	float throttle;
+	public float throttle;
 	float yawDirection;
     float liftDirection;
 
