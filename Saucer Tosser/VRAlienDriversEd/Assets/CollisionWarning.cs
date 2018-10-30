@@ -36,7 +36,7 @@ public class CollisionWarning : MonoBehaviour {
         }
         myText.text = warnings[warning];
 
-        if ((Physics.Raycast(transform.position, transform.forward, 30)) && (ship.throttle > 0))
+        if ((Physics.Raycast(transform.position+transform.forward, transform.forward, 30)) && (ship.throttle > 0.1))
         {
             myText.enabled = true;
             shipLight.color = Color.red;
