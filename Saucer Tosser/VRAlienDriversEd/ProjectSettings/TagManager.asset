@@ -8,6 +8,7 @@ TagManager:
   - TractorBeam
   - TractorBeamable
   - Trunk
+  - UFO
   layers:
   - Default
   - TransparentFX

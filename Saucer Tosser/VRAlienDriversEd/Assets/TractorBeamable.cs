@@ -39,7 +39,9 @@ public class TractorBeamable : MonoBehaviour {
         }
         if (collision.gameObject == triggerZone)
         {
-            transform.localScale = transform.localScale / 10;
+            transform.parent = GameObject.FindGameObjectWithTag("UFO").transform;
+            transform.gameObject.layer = 9;
+            transform.localScale = transform.localScale / 20;
             transform.position = GameObject.FindGameObjectWithTag("Trunk").transform.position;
         }
     }
