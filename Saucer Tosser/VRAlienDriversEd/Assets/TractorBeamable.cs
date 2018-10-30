@@ -7,6 +7,7 @@ public class TractorBeamable : MonoBehaviour {
     Rigidbody rb;
     bool isCaptured = false;
     GameObject triggerZone;
+    public ItemAlert itemAlert;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,7 @@ public class TractorBeamable : MonoBehaviour {
             rb.useGravity = false;
             float speed = 1;
             transform.position = Vector3.MoveTowards(transform.position, triggerZone.transform.position, speed * Time.deltaTime);
+            
         }
         else
         {
@@ -41,8 +43,9 @@ public class TractorBeamable : MonoBehaviour {
         {
             transform.parent = GameObject.FindGameObjectWithTag("UFO").transform;
             transform.gameObject.layer = 9;
-            transform.localScale = transform.localScale / 20;
+            transform.localScale = transform.localScale / 25;
             transform.position = GameObject.FindGameObjectWithTag("Trunk").transform.position;
+            itemAlert.ShowAlert();
         }
     }
 
@@ -52,5 +55,10 @@ public class TractorBeamable : MonoBehaviour {
         {
             isCaptured = false;
         }
+    }
+
+    public void ParentToUFO()
+    {
+        transform.parent = GameObject.FindGameObjectWithTag("UFO").transform;
     }
 }

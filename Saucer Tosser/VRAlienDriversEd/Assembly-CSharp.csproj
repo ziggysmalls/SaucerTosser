@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\AttachTransform.cs" />
     <Compile Include="Assets\CollisionWarning.cs" />
+    <Compile Include="Assets\ItemAlert.cs" />
     <Compile Include="Assets\Pulley.cs" />
     <Compile Include="Assets\Radio.cs" />
     <Compile Include="Assets\Scripts\Audio\AudioEvent.cs" />

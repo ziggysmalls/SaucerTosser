@@ -1,0 +1,2 @@
+C:\Users\Nick\Desktop\SaucerTosser\Saucer Tosser\VRAlienDriversEd\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Nick\Desktop\SaucerTosser\Saucer Tosser\VRAlienDriversEd\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
