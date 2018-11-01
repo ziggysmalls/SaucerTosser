@@ -20,8 +20,9 @@ public class Modifier : MonoBehaviour
     {
         if (collision.gameObject.tag == "Holder")
         {
+            Holder holder = collision.GetComponent<Holder>();
+            holder.items++;
             gameObject.isStatic = true;
-            //gameObject.GetComponent<Rigidbody>().isKinematic = true;
             holderText.color = Color.green;
             ActivateAbility();
             
@@ -33,10 +34,16 @@ public class Modifier : MonoBehaviour
         if (other.gameObject.tag == "Holder")
         {
             gameObject.isStatic = false;
-            //gameObject.GetComponent<Rigidbody>().isKinematic = false;
-            holderText.text = "NO MODIFIER EQUIPPED";
-            holderText.color = Color.red;
             DisableAbility();
+
+            Holder holder = other.GetComponent<Holder>();
+            holder.items--;
+            if (holder.items == 0)
+            {
+                holderText.text = "NO MODIFIER EQUIPPED";
+                holderText.color = Color.red;
+                
+            }
         }
     }
 

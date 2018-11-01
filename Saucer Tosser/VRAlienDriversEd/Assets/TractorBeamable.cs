@@ -14,7 +14,7 @@ public class TractorBeamable : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         gameObject.layer = 10;
         gameObject.tag = "TractorBeamable";
-        triggerZone = GameObject.FindGameObjectWithTag("Player");
+        triggerZone = GameObject.FindGameObjectWithTag("TractorBeamTrigger");
 	}
 	
 	// Update is called once per frame

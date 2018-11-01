@@ -11,6 +11,7 @@ TagManager:
   - UFO
   - Holder
   - HolderText
+  - TractorBeamTrigger
   layers:
   - Default
   - TransparentFX

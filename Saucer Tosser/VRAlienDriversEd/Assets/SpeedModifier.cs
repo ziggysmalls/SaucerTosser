@@ -16,13 +16,10 @@ public class SpeedModifier : Modifier
 
         ship.maxSpeed = ship.maxSpeed * speedModifier;
         holderText.text = "SPEED MODIFIER ACTIVE";
-        Debug.Log(holderText.text);
-        Debug.Log(ship.maxSpeed);
     }
 
     public override void DisableAbility()
     {
         ship.maxSpeed = ship.maxSpeed / speedModifier;
-        Debug.Log(ship.maxSpeed);
     }
 }
