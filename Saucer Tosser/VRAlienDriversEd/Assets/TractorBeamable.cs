@@ -30,7 +30,6 @@ public class TractorBeamable : MonoBehaviour {
         {
             rb.useGravity = true;
         }
-        Debug.Log("IsCaptured = " + isCaptured);
     }
 
     void OnTriggerEnter(Collider collision)

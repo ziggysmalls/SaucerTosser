@@ -9,6 +9,8 @@ TagManager:
   - TractorBeamable
   - Trunk
   - UFO
+  - Holder
+  - HolderText
   layers:
   - Default
   - TransparentFX

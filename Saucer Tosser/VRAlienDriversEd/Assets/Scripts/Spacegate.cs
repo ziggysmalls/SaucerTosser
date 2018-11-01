@@ -8,16 +8,6 @@ public class Spacegate : MonoBehaviour {
 
     bool isTriggered = false;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        Debug.Log(isTriggered);
-	}
-
     public void triggerSpacegate()
     {
         isTriggered = true;

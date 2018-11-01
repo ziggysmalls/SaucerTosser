@@ -530,7 +530,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ae04acf4cad8021449c3a892654b4824, type: 2}
+  - {fileID: 2100000, guid: ff48e0a38a5094e4dbbf95572f274c8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -565,7 +565,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ae04acf4cad8021449c3a892654b4824, type: 2}
+  - {fileID: 2100000, guid: ff48e0a38a5094e4dbbf95572f274c8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -600,7 +600,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ae04acf4cad8021449c3a892654b4824, type: 2}
+  - {fileID: 2100000, guid: ff48e0a38a5094e4dbbf95572f274c8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -670,7 +670,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ae04acf4cad8021449c3a892654b4824, type: 2}
+  - {fileID: 2100000, guid: ff48e0a38a5094e4dbbf95572f274c8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -810,7 +810,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ae04acf4cad8021449c3a892654b4824, type: 2}
+  - {fileID: 2100000, guid: ff48e0a38a5094e4dbbf95572f274c8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1004,7 +1004,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 0
-  m_Color: {r: 0, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.06774928, b: 0, a: 1}
   m_Intensity: 3.59
   m_Range: 5.44
   m_SpotAngle: 92.6
@@ -1041,7 +1041,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 0
-  m_Color: {r: 0, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.06774928, b: 0, a: 1}
   m_Intensity: 3.59
   m_Range: 5.44
   m_SpotAngle: 92.6
@@ -1078,7 +1078,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 0
-  m_Color: {r: 0, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.06774928, b: 0, a: 1}
   m_Intensity: 3.59
   m_Range: 5.44
   m_SpotAngle: 92.6
@@ -1115,7 +1115,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 0
-  m_Color: {r: 0, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.06774928, b: 0, a: 1}
   m_Intensity: 3.59
   m_Range: 5.44
   m_SpotAngle: 92.6

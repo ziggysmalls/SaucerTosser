@@ -63,7 +63,9 @@
   <ItemGroup>
     <Compile Include="Assets\AttachTransform.cs" />
     <Compile Include="Assets\CollisionWarning.cs" />
+    <Compile Include="Assets\Holder.cs" />
     <Compile Include="Assets\ItemAlert.cs" />
+    <Compile Include="Assets\Modifier.cs" />
     <Compile Include="Assets\Pulley.cs" />
     <Compile Include="Assets\Radio.cs" />
     <Compile Include="Assets\Scripts\Audio\AudioEvent.cs" />
@@ -81,6 +83,8 @@
     <Compile Include="Assets\Scripts\UnityExtensions\UnityExtensions.cs" />
     <Compile Include="Assets\ShipLight.cs" />
     <Compile Include="Assets\SpacegateTrigger.cs" />
+    <Compile Include="Assets\SpeedModifier.cs" />
+    <Compile Include="Assets\SpeeModifier.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\BodyCollider.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\CircularDrive.cs" />
     <Compile Include="Assets\SteamVR\InteractionSystem\Core\Scripts\ComplexThrowable.cs" />
