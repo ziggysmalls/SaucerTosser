@@ -22,7 +22,7 @@ public class TractorBeamable : MonoBehaviour {
 		if (isCaptured)
         {
             rb.useGravity = false;
-            float speed = 1;
+            float speed = 3;
             transform.position = Vector3.MoveTowards(transform.position, triggerZone.transform.position, speed * Time.deltaTime);
             
         }
