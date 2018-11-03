@@ -12,6 +12,8 @@ TagManager:
   - Holder
   - HolderText
   - TractorBeamTrigger
+  - Warpgate
+  - UFORigidbody
   layers:
   - Default
   - TransparentFX
@@ -24,7 +26,7 @@ TagManager:
   - Terrain
   - Interactable
   - Tractor Beam
-  - 
+  - NPC
   - 
   - 
   - 

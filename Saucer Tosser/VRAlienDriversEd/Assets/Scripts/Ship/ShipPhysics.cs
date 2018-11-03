@@ -121,7 +121,7 @@ public class ShipPhysics : MonoBehaviour {
 
     public void OnCollisionEnter(Collision col)
     {
-        if ((col.gameObject.layer == 8) && (throttle > .1f))
+        if ((col.gameObject.layer == 8 || col.gameObject.layer == 11) && (throttle > .1f))
         {
             ToggleShipPower power = GameObject.FindGameObjectWithTag("Power").GetComponent<ToggleShipPower>();
             power.ToggleShipPowerOff();

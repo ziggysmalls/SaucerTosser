@@ -36,7 +36,9 @@ public class CollisionWarning : MonoBehaviour {
         }
         myText.text = warnings[warning];
 
-        if ((Physics.Raycast(transform.position+transform.forward, transform.forward, 30)) && (ship.throttle > 0.1))
+        RaycastHit hit;
+        Physics.Raycast(transform.position + transform.forward, transform.forward, out hit);
+        if ((hit.distance < 30) && (hit.transform.gameObject.layer == 8) && (ship.throttle > 0.1))
         {
             myText.enabled = true;
             shipLight.color = Color.red;
@@ -46,5 +48,7 @@ public class CollisionWarning : MonoBehaviour {
             myText.enabled = false;
             shipLight.color = shipLightColor;
         }
+        Debug.DrawRay(transform.position, transform.forward*30);
+        Debug.Log(hit.transform.gameObject);
 	}
 }
