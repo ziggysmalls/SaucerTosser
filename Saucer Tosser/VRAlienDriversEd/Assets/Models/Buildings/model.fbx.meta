@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 80d9e275840fff34988abbd4afd18f45
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: mesh_1007167029
+    100002: mesh_107543494
+    100004: mesh_1082779341
+    100006: mesh_1388489259
+    100008: mesh_1532565464
+    100010: mesh_1553211090
+    100012: mesh_1791674944
+    100014: mesh_2081533324
+    100016: mesh_2101561520
+    100018: mesh_277181209
+    100020: mesh_384652724
+    100022: mesh_46550973
+    100024: mesh_481688711
+    100026: mesh_49052475
+    100028: mesh_559278569
+    100030: mesh_570674483
+    100032: mesh_662839887
+    100034: mesh_701347685
+    100036: mesh_70803316
+    100038: mesh_817027666
+    100040: mesh_824640079
+    100042: mesh_853742150
+    100044: //RootNode
+    400000: mesh_1007167029
+    400002: mesh_107543494
+    400004: mesh_1082779341
+    400006: mesh_1388489259
+    400008: mesh_1532565464
+    400010: mesh_1553211090
+    400012: mesh_1791674944
+    400014: mesh_2081533324
+    400016: mesh_2101561520
+    400018: mesh_277181209
+    400020: mesh_384652724
+    400022: mesh_46550973
+    400024: mesh_481688711
+    400026: mesh_49052475
+    400028: mesh_559278569
+    400030: mesh_570674483
+    400032: mesh_662839887
+    400034: mesh_701347685
+    400036: mesh_70803316
+    400038: mesh_817027666
+    400040: mesh_824640079
+    400042: mesh_853742150
+    400044: //RootNode
+    2100000: material_17___23225
+    2100002: material_16___23225
+    2100004: material_3___23225
+    2300000: mesh_1007167029
+    2300002: mesh_107543494
+    2300004: mesh_1082779341
+    2300006: mesh_1388489259
+    2300008: mesh_1532565464
+    2300010: mesh_1553211090
+    2300012: mesh_1791674944
+    2300014: mesh_2081533324
+    2300016: mesh_2101561520
+    2300018: mesh_277181209
+    2300020: mesh_384652724
+    2300022: mesh_46550973
+    2300024: mesh_481688711
+    2300026: mesh_49052475
+    2300028: mesh_559278569
+    2300030: mesh_570674483
+    2300032: mesh_662839887
+    2300034: mesh_701347685
+    2300036: mesh_70803316
+    2300038: mesh_817027666
+    2300040: mesh_824640079
+    2300042: mesh_853742150
+    3300000: mesh_1007167029
+    3300002: mesh_107543494
+    3300004: mesh_1082779341
+    3300006: mesh_1388489259
+    3300008: mesh_1532565464
+    3300010: mesh_1553211090
+    3300012: mesh_1791674944
+    3300014: mesh_2081533324
+    3300016: mesh_2101561520
+    3300018: mesh_277181209
+    3300020: mesh_384652724
+    3300022: mesh_46550973
+    3300024: mesh_481688711
+    3300026: mesh_49052475
+    3300028: mesh_559278569
+    3300030: mesh_570674483
+    3300032: mesh_662839887
+    3300034: mesh_701347685
+    3300036: mesh_70803316
+    3300038: mesh_817027666
+    3300040: mesh_824640079
+    3300042: mesh_853742150
+    4300000: mesh_1007167029
+    4300002: mesh_662839887
+    4300004: mesh_384652724
+    4300006: mesh_817027666
+    4300008: mesh_46550973
+    4300010: mesh_559278569
+    4300012: mesh_2101561520
+    4300014: mesh_1532565464
+    4300016: mesh_481688711
+    4300018: mesh_853742150
+    4300020: mesh_49052475
+    4300022: mesh_1791674944
+    4300024: mesh_107543494
+    4300026: mesh_824640079
+    4300028: mesh_70803316
+    4300030: mesh_570674483
+    4300032: mesh_701347685
+    4300034: mesh_1553211090
+    4300036: mesh_2081533324
+    4300038: mesh_1082779341
+    4300040: mesh_277181209
+    4300042: mesh_1388489259
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
