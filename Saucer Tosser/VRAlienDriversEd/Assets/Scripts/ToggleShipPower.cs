@@ -41,11 +41,13 @@ public class ToggleShipPower : MonoBehaviour {
         {
             buttonDown = false;
         }
+
 	}
 
     public void ToggleShipPowerOn()
     {
         shipPowered = true;
+        GetComponent<AudioSource>().Play();
         shipPhysics.enabled = true;
         shipRigidbody.useGravity = false;
         shipRigidbody.angularDrag = 100;
@@ -60,6 +62,7 @@ public class ToggleShipPower : MonoBehaviour {
     public void ToggleShipPowerOff()
     {
         shipPowered = false;
+        GetComponent<AudioSource>().Stop();
         shipPhysics.enabled = false;
         
         shipRigidbody.useGravity = true;

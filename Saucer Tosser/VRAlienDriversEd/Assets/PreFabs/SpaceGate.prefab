@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4801381113186114}
   - component: {fileID: 65839533422633848}
   - component: {fileID: 114569989252973156}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TriggerZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -547,8 +547,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915823715344046}
-  m_LocalRotation: {x: 0.00063728204, y: 0.23841472, z: 0.027023083, w: 0.97078717}
-  m_LocalPosition: {x: -159.93, y: -2.9899979, z: 134.02}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -18.899994, y: 11.500683, z: 76.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4005322186182968}
