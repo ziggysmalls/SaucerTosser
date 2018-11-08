@@ -23,9 +23,16 @@ GameObject:
   - component: {fileID: 23401150518294424}
   - component: {fileID: 65858351317820194}
   - component: {fileID: 54298180216535752}
-  m_Layer: 8
+  - component: {fileID: 114805401271684346}
+  - component: {fileID: 114674509948701360}
+  - component: {fileID: 114586905062119602}
+  - component: {fileID: 114128227412589486}
+  - component: {fileID: 114036215461113938}
+  - component: {fileID: 114248998749323316}
+  - component: {fileID: 114422673735177762}
+  m_Layer: 10
   m_Name: Speed Boost
-  m_TagString: Untagged
+  m_TagString: TractorBeamable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,7 +47,7 @@ GameObject:
   - component: {fileID: 4334404334222678}
   - component: {fileID: 33733704920432314}
   - component: {fileID: 23835486517900348}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Untitled_0_DiamondHull_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +64,7 @@ GameObject:
   - component: {fileID: 4935766321280032}
   - component: {fileID: 33761038263380530}
   - component: {fileID: 23560899266313162}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Untitled_0_MatteHull_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +79,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4817851454461000}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Speed core
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +96,7 @@ GameObject:
   - component: {fileID: 4850514217718096}
   - component: {fileID: 33535512730599932}
   - component: {fileID: 23217452008726464}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Untitled_0_Lofted_geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +110,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1069376369627764}
   m_LocalRotation: {x: -0, y: 0.030733382, z: -0, w: 0.99952763}
-  m_LocalPosition: {x: 13.790047, y: -33.65771, z: -23.451595}
+  m_LocalPosition: {x: -11.904648, y: -64.211655, z: 6.1443787}
   m_LocalScale: {x: 1.1015294, y: 1.1015296, z: 1.1015294}
   m_Children:
   - {fileID: 4817851454461000}
@@ -360,3 +367,143 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114036215461113938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069376369627764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 50
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
+--- !u!114 &114128227412589486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069376369627764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentFlags: 12
+  attachmentPoint: 
+  catchSpeedThreshold: 0
+  restoreOriginalParent: 0
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  attachEaseInAttachmentNames: []
+  onPickUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onDetachFromHand:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: ParentToUFO
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  snapAttachEaseInCompleted: 0
+--- !u!114 &114248998749323316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069376369627764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114422673735177762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069376369627764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82cc12db484d2414a9c20c8455325e47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holderText: {fileID: 0}
+  ship: {fileID: 0}
+  speedModifier: 3
+--- !u!114 &114586905062119602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069376369627764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114674509948701360
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069376369627764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
+--- !u!114 &114805401271684346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069376369627764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0ab4c9f97f5d949bc47c759613474e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemAlert: {fileID: 0}
