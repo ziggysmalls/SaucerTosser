@@ -126,5 +126,19 @@ public class ShipPhysics : MonoBehaviour {
             ToggleShipPower power = GameObject.FindGameObjectWithTag("Power").GetComponent<ToggleShipPower>();
             power.ToggleShipPowerOff();
         }
+
+        if (col.gameObject.layer == 13)
+        {
+            ToggleShipPower power = GameObject.FindGameObjectWithTag("Power").GetComponent<ToggleShipPower>();
+            power.ToggleShipPowerOff();
+        }
+
+        if (col.gameObject.tag == "Warpgate")
+        {
+            Transform newTransform = col.gameObject.GetComponent<Warpgate>().targetGate.transform;
+            transform.position = newTransform.position;
+            transform.rotation = Quaternion.Euler(newTransform.forward);
+            Debug.Log("Yes");
+        }
     }
 }

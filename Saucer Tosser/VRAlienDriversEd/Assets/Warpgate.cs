@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TransportGate : MonoBehaviour {
+public class Warpgate : MonoBehaviour {
 
     public GameObject targetGate;
-    public GameObject npc;
 
 	// Use this for initialization
 	void Start () {
@@ -14,12 +13,5 @@ public class TransportGate : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (targetGate != null)
-        {
-            UFO ufo = Instantiate(npc).GetComponent<UFO>();
-            ufo.spawnGate = gameObject.name;
-            ufo.targetGate = targetGate;
-
-        }
 	}
 }

@@ -48,7 +48,5 @@ public class CollisionWarning : MonoBehaviour {
             myText.enabled = false;
             shipLight.color = shipLightColor;
         }
-        Debug.DrawRay(transform.position, transform.forward*30);
-        Debug.Log(hit.transform.gameObject);
 	}
 }

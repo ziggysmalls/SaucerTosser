@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class UFO : MonoBehaviour {
 
-    public string spawnGate;
-    public GameObject targetGate;
+
     Rigidbody rb;
 
     bool powered = true;
@@ -16,14 +15,10 @@ public class UFO : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (powered)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, targetGate.transform.position, 1);
-            transform.position += transform.right * Random.Range(-1, 1) * .01f;
-        }
-        else
+        if (!powered)
         {
             rb.useGravity = true;
+            GetComponent<EnemyPath>().enabled = false;
         }
 	}
 
