@@ -36,16 +36,10 @@ public class EnemyPath : MonoBehaviour {
          if(transform.position == targetWayPoint.position)
          {
              currentWayPoint ++ ;
-            if (currentWayPoint >= wayPointList.Length)
-            {
-                currentWayPoint = 0;
-            }
-            targetWayPoint = wayPointList[currentWayPoint];
+	     if (currentWayPoint > wayPointList.Length-1) currentWayPoint = 0;
+             targetWayPoint = wayPointList[currentWayPoint];
          }
-        /*
-       Vector3 newDir = Vector3.RotateTowards(transform.position, targetWayPoint.position, 1f,1f);
-       transform.rotation = Quaternion.LookRotation(newDir);
-       */
+
         transform.LookAt(targetWayPoint);
-     } 
+    } 
  }

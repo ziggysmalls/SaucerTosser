@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Terrain and obstacles/Hangar, terrain, and obstacles.unity
+    guid: 39b7e1ef6d90c794588317494d4d1196
+  m_configObjects: {}

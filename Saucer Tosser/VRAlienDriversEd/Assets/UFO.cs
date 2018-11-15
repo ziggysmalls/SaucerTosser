@@ -6,6 +6,7 @@ public class UFO : MonoBehaviour {
 
 
     Rigidbody rb;
+    public float timer = 0;
 
     bool powered = true;
 	// Use this for initialization
@@ -20,7 +21,15 @@ public class UFO : MonoBehaviour {
             rb.useGravity = true;
             GetComponent<EnemyPath>().enabled = false;
         }
-	}
+
+        timer -= Time.deltaTime;
+        if (timer < 0)
+        {
+            powered = true;
+            GetComponent<EnemyPath>().enabled = true;
+            rb.useGravity = false;
+        }
+    }
 
     void OnCollisionEnter(Collision collision)
     {
@@ -32,8 +41,11 @@ public class UFO : MonoBehaviour {
         if (collision.gameObject.tag == "UFORigidbody")
         {
             powered = false;
+            
         }
-
+        timer = 1;
         powered = false;
+
+        
     }
 }
