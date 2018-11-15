@@ -33,5 +33,7 @@ public class UFO : MonoBehaviour {
         {
             powered = false;
         }
+
+        powered = false;
     }
 }
