@@ -21,6 +21,5 @@ public class SpacegateLight : MonoBehaviour {
     public void Trigger()
     {
         rend.material = triggerMat;
-        light.color = Color.green;
     }
 }

@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Modifier : MonoBehaviour
 {
     public Text holderText;
+    public string text;
     //public Light holderLight;
 
     private void Start()
@@ -49,7 +50,7 @@ public class Modifier : MonoBehaviour
 
     public virtual void ActivateAbility()
     {
-        holderText.text = "NICK IS AWESOME";
+        holderText.text = text;
     }
 
     public virtual void DisableAbility()

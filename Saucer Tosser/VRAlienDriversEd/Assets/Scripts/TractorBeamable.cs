@@ -29,6 +29,7 @@ public class TractorBeamable : MonoBehaviour {
         else
         {
             rb.useGravity = true;
+            rb.velocity = Vector3.zero;
         }
     }
 
@@ -53,6 +54,7 @@ public class TractorBeamable : MonoBehaviour {
         if (collision.gameObject.tag == "TractorBeam")
         {
             isCaptured = false;
+            rb.velocity = Vector3.zero;
         }
     }
 

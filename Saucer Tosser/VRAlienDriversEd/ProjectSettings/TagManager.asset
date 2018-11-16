@@ -14,6 +14,7 @@ TagManager:
   - TractorBeamTrigger
   - Warpgate
   - UFORigidbody
+  - lavaTrigger
   layers:
   - Default
   - TransparentFX

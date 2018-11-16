@@ -22,6 +22,7 @@ public class Pulley : MonoBehaviour {
         }else{
             DeactivateTractorBeam();
         }
+        transform.localPosition = new Vector3(-0.2096769f, transform.localPosition.y, 1.110558f);
 
     }
 
