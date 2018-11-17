@@ -37,6 +37,7 @@ public class Pulley : MonoBehaviour {
         foreach (GameObject tractorBeamable in tractorBeamables)
         {
             tractorBeamable.GetComponent<Rigidbody>().useGravity = true;
+            tractorBeamable.GetComponent<TractorBeamable>().isCaptured = false;
         }
         tractorBeam.SetActive(false);
     }

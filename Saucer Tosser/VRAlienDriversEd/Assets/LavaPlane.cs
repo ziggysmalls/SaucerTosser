@@ -15,10 +15,6 @@ public class LavaPlane : MonoBehaviour {
 	void Update () {
 		
 	}
-    private void OnCollisionStay(Collider other)
-    {
-        Debug.Log(other);
-    }
 
     private void OnTriggerEnter(Collider other)
     {

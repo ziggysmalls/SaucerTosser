@@ -5,7 +5,7 @@ using UnityEngine;
 public class TractorBeamable : MonoBehaviour {
 
     Rigidbody rb;
-    bool isCaptured = false;
+    public bool isCaptured = false;
     GameObject triggerZone;
     public ItemAlert itemAlert;
 
@@ -29,7 +29,6 @@ public class TractorBeamable : MonoBehaviour {
         else
         {
             rb.useGravity = true;
-            rb.velocity = Vector3.zero;
         }
     }
 
@@ -41,6 +40,7 @@ public class TractorBeamable : MonoBehaviour {
         }
         if (collision.gameObject == triggerZone)
         {
+            isCaptured = false;
             transform.parent = GameObject.FindGameObjectWithTag("UFO").transform;
             transform.gameObject.layer = 9;
             transform.localScale = transform.localScale / 25;
